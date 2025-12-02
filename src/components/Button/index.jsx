@@ -3,7 +3,7 @@ import styles from "./index.module.scss";
 const Button = ({children, mailto}) => {
     const handleClick = () => {
         if (mailto) {
-            window.location.href = "mailto:contact@estebancott.dev";
+            window.location.href = "mailto:nathanprunotto@gmail.com";
         }
     };
 

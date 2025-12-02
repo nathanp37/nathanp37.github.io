@@ -4,18 +4,19 @@ const HeroBanner = () => {
     return (
         <div className={styles.container}>
             <div className={styles.description}>
-                <p className={styles.title}>My name <br/> is <span>Esteban</span></p>
+                <p className={styles.title}> Nathan <span>PRUNOTTO</span></p>
                 <p className={styles.descriptionOfDescription}>
-                    I’m an Embedded Software Engineer passionate about low-level systems — from real-time code and
-                    electronics to 3D modeling. I love building complete embedded solutions, from idea to deployment.
+                    Jeune diplômé de l’ENSIM, spécialisé en acoustique et vibrations, passionné par l’innovation et la recherche.
+                    Candidat à une thèse ou à un poste d’ingénieur en traitement du signal, imagerie, vibrations ou intelligence artificielle.
                 </p>
             </div>
             <div className={styles.containerSkills}>
                 <div className={styles.skills}>
-                    <div className={`${styles.skill} ${styles.cpp}`}>C++</div>
-                    <div className={`${styles.skill} ${styles.c}`}>C</div>
-                    <div className={`${styles.skill} ${styles.python}`}>Python</div>
-                    <div className={`${styles.skill} ${styles.bash}`}>Bash</div>
+                    <div className={`${styles.skill} ${styles.cpp}`}>Python</div>
+                    <div className={`${styles.skill} ${styles.c}`}>Matlab</div>
+                    <div className={`${styles.skill} ${styles.python}`}>Solidworks</div>
+                    <div className={`${styles.skill} ${styles.bash}`}>Kicad</div>
+                    <div className={`${styles.skill} ${styles.bash}`}>Comsol multiphysics</div>
                 </div>
             </div>
             <div className={styles.banner}>

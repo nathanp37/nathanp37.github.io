@@ -1,9 +1,9 @@
 {
-  "name": "esteban-portfolio",
+  "name": "nathan-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://estebancott.dev/",
+  "homepage": "https://nathanp37.github.io/portfolio",
   "scripts": {
     "dev": "npm run generate-projects && vite",
     "build": "npm run generate-projects && vite build",

@@ -4,7 +4,7 @@ import svgr from 'vite-plugin-svgr';
 import { nodePolyfills } from 'vite-plugin-node-polyfills'; // <-- Importez le plugin
 
 export default defineConfig({
-    base: '/',
+    base: '/portfolio/',
     plugins: [
         react(),
         svgr({

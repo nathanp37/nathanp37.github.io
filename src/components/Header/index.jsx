@@ -50,8 +50,8 @@ const Header = () => {
             <div className={styles.content}>
                 <nav>
                     <ul className={styles.menu} ref={menuRef}>
-                        <li><a href="/CV.pdf" target="_blank" rel="noopener noreferrer" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>About Me</a></li>
-                        <li><a href="#" onClick={handleProjectsClick} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Projects</a></li>
+                        <li><a href="/CV.pdf" target="_blank" rel="noopener noreferrer" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Mon CV</a></li>
+                        <li><a href="#" onClick={handleProjectsClick} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Projets</a></li>
                         <div className={styles.border} ref={borderRef}></div>
                     </ul>
                 </nav>
@@ -64,7 +64,7 @@ const Header = () => {
                     <Logo />
                 </div>
                 <div className={styles.getInTouch}>
-                    <Button mailto={true}>Get in touch</Button>
+                    <Button mailto={true}>Contact</Button>
                 </div>
             </div>
         </header>
