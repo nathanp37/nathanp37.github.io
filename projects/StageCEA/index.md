@@ -42,6 +42,9 @@ L'analyse a permis d'identifier quatre classes de signaux, qui ont ensuite été
 3.  **Classe 3 : Délaminage sur plis endommagés** (signal long, temps de montée court).
 4.  **Classe 4 : Délaminage sur plis peu endommagés** (signal long, energie importante).
 
+**Représentation temps-fréquence de signaux caractéristiques des classes obtenues**
+![Essai de fermeture localisé](/projects/StageCEA/fermeture_essai.jpg)
+
 ## Conclusion et Compétences Développées 🛠️
 
 Ce stage a confirmé l'intérêt de l'EA comme outil complémentaire et essentiel pour la caractérisation des matériaux composites.
