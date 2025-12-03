@@ -1,7 +1,7 @@
 ---
 title: "Suivi d'essais mécaniques sur éprouvettes de géométries complexes par Emission Acoustique"
 date: "2025-08-22"
-cover: "/projects/StageCEA/cea_logo.png"
+cover: "/projects/StageCEA/cea_logo.PNG"
 tags: ["Acoustique", "Matériaux", "CEA", "Recherche", "Python", "Traitement du signal"]
 ---
 
@@ -25,9 +25,9 @@ La mise en œuvre a combiné une instrumentation spécifique (capteurs Micro80) 
 J'ai développé une méthodologie de localisation des sources d'EA pour identifier les zones critiques d'endommagement sur l'éprouvette à cornière raidie.
 
 * **En essai d'ouverture :** Les premières sources acoustiques sont apparues dans le **raidisseur**.
-![Essai d'ouverture localisé](/projects/StageCEA/ouverture_essai.jpg)
+![Essai d'ouverture localisé](/projects/StageCEA/ouverture_essai.JPG)
 * **En essai de fermeture :** Les dommages étaient principalement localisés dans la **liaison raidisseur-cornière**.
-![Essai de fermeture localisé](/projects/StageCEA/fermeture_essai.jpg)
+![Essai de fermeture localisé](/projects/StageCEA/fermeture_essai.JPG)
 
 Ces localisations étaient **cohérentes avec la Corrélation d'Images Numériques (CIN)** et ont démontré que l'EA permet de détecter les fissures **avant** qu'elles ne soient visibles par CIN.
 
@@ -43,7 +43,7 @@ L'analyse a permis d'identifier quatre classes de signaux, qui ont ensuite été
 4.  **Classe 4 : Délaminage sur plis peu endommagés** (signal long, energie importante).
 
 **Représentation temps-fréquence de signaux caractéristiques des classes obtenues**
-![Essai de fermeture localisé](/projects/StageCEA/fermeture_essai.jpg)
+![Essai de fermeture localisé](/projects/StageCEA/Classe.PNG)
 
 ## Conclusion et Compétences Développées 🛠️
 
