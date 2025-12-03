@@ -1,5 +1,5 @@
 ---
-title: "Analyse Vibratoire d'un Ruban de Möbius : Modélisation et Expérimentation"
+title: "Projet de 5eme année : Analyse Vibratoire d'un Ruban de Möbius, Modélisation et Expérimentation"
 date: "2025-12-03"
 cover: "/projects/Projet5A/mobius.png"
 tags: ["Vibrations", "Modélisation", "Expérimentation", "ANSYS", "MATLAB", "Ruban de Möbius"]
@@ -56,7 +56,7 @@ Ce projet de fin d’année porte sur l’analyse vibratoire de structures à g�
   - dépendance **linéaire** entre fréquence et longueur de portée de vrille
 
 ### ✔ Influence de la vrille dans les structures annulaires
-- Comparaison anneau vs Möbius :
+- Comparaison des modes propres Anneau vs Möbius :
 ![Montage expérimental](/projects/Projet5A/FRFAnneauMobius.png)
   - légère **augmentation du 1er mode**
   - **baisse significative des modes supérieurs**
@@ -80,5 +80,5 @@ Ce projet de fin d’année porte sur l’analyse vibratoire de structures à g�
 - **Rapporteur** : Pascal Picart
 - **Établissement** : ENSIM / Le Mans Université
 
-Ce fichier *index.md* résume le projet et peut être intégré directement dans un portfolio ou une page web de présentation.
+
 
