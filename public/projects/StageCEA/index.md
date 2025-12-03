@@ -55,3 +55,10 @@ Ce projet m'a permis de développer une expertise dans :
 -   **Traitement du signal** : Analyse, filtrage, et classification (ACP, k-moyennes, dendrogramme) de données d'EA.
 -   **Programmation scientifique** : Utilisation de **Python** pour la post-analyse et la visualisation de la localisation des sources acoustiques.
 -   **Connaissances en matériaux** : Compréhension du scénario d'endommagement des CMC oxyde/oxyde.
+
+## 📁 À propos du projet
+- **Auteurs** : Nathan Prunotto
+- **Encadrants** : Chalotte Piquet & Samuel Daguet & Alexandre Portal
+- **Rapporteur** : Mourad Bentahar
+- **Établissement** : ENSIM / Le Mans Université
+- **Entreprise** : CEA / Le Ripault
