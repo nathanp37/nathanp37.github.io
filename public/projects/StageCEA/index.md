@@ -1,8 +1,8 @@
 ---
-title: "Suivi d'essais mécaniques sur éprouvettes de géométries complexes par Emission Acoustique"
+title: "Stage de fin d'étude : Suivi d'essais mécaniques par Emission Acoustique"
 date: "2025-08-22"
 cover: "/projects/StageCEA/cea_logo.PNG"
-tags: ["Acoustique", "Matériaux", "CEA", "Recherche", "Python", "Traitement du signal"]
+tags: ["Emission Acoustique", "Matériaux", "CMC", "Python", "Traitement du signal", "Classification non supervisée"]
 ---
 
 ## Contexte du Stage : Étude de Composites à Matrice Céramique (CMC)
@@ -35,12 +35,13 @@ Ces localisations étaient **cohérentes avec la Corrélation d'Images Numériqu
 
 J'ai mis en place une **classification non supervisée** par algorithmes génétiques et k-moyennes pour distinguer les signatures acoustiques des différents mécanismes d'endommagement, notamment le délaminage.
 
-L'analyse a permis d'identifier quatre classes de signaux, qui ont ensuite été labellisées pour correspondre aux phénomènes suivants:
+
 
 1.  **Classe 1 : Fissuration matricielle** (signal court, temps de montée court).
 2.  **Classe 2 : Décohésion fibre-matrice** (signal court, temps de montée plus long).
 3.  **Classe 3 : Délaminage sur plis endommagés** (signal long, temps de montée court).
 4.  **Classe 4 : Délaminage sur plis peu endommagés** (signal long, energie importante).
+
 
 **Représentation temps-fréquence de signaux caractéristiques des classes obtenues**
 ![Essai de fermeture localisé](/projects/StageCEA/Classe.PNG)
