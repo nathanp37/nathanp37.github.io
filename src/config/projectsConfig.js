@@ -9,5 +9,6 @@ export const PROJECTS_LIST = [
     "LedMatrix",
     "OdroidYocto",
     "Paludarium",
-    "Portfolio"
+    "Portfolio",
+    "StageCEA"
 ];
