@@ -1,7 +1,9 @@
 import styles from "./index.module.scss";
 import Button from "../Button/index.jsx";
 import Logo from "../../assets/Logo";
+
 import React, { useEffect, useState } from "react";
+import cvFile from "../../assets/mon-cv.pdf";
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -51,7 +53,7 @@ const Header = () => {
                 <nav>
                     <ul className={styles.menu} ref={menuRef}>
                         <li><a 
-    href="/mon-cv.pdf" 
+    href={cvFile}
     target="_blank" 
     rel="noopener noreferrer" 
     download="CV_Nathan_Prunotto.pdf" // Ajout de l'attribut download
