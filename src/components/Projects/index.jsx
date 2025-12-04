@@ -54,7 +54,7 @@ const Projects = () => {
     if (loading) {
         return (
             <div className={styles.container} data-section="projects">
-                <h2 className={styles.title}>Tous mes projets</h2>
+                <h2 className={styles.title}>Mes projets</h2>
                 <div className={styles.loading}>
                     <p>Chargement des projets...</p>
                 </div>
@@ -64,7 +64,7 @@ const Projects = () => {
 
     return (
         <div className={styles.container} data-section="projects">
-            <h2 className={styles.title}>Tous mes projets</h2>
+            <h2 className={styles.title}>Mes projets</h2>
 
             <div className={styles.projectsGrid}>
                 {projects.map((project) => (
