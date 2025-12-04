@@ -1,7 +1,7 @@
 ---
 title: "Analyse Modale Expérimentale de Structures Mécaniques"
 date: "2024-12-20" 
-cover: "/projects/Rapport-Analyse-Modale/accueil.png" 
+cover: "/projects/Analyse_Modale/accueil.png" 
 tags: ["Vibrations", "Analyse Modale", "FRF", "LMS Testlab", "MODAN/OROS"]
 ---
 
@@ -23,7 +23,7 @@ L'analyse modale utilise les **Fonctions de Réponse en Fréquence (FRF)**, spé
 
 L'architecture générale du système de mesure typique est donnée sur la figure ci-dessous.
 
-![Chaîne de mesure pour l'analyse modale](/projects/Rapport-Analyse-Modale/schéma_expérimental.png)
+![Chaîne de mesure pour l'analyse modale](/projects/Analyse_Modale/schema_experimental.png)
 
 Deux stratégies d'excitation sont possibles pour collecter les FRF :
 
@@ -41,7 +41,7 @@ Une attention particulière a été portée à la qualité des mesures :
 
 ## Résultats Détaillés des Analyses 📊
 
-### A. Analyse de la Cloche (Marteau d'Impact)
+### 1. Analyse de la Cloche (Marteau d'Impact)
 
 L'analyse modale complexe a révélé l'existence de **modes doubles**, typiques des structures quasi-symétriques. Ces modes sont très proches en fréquence (ex. : 786 Hz et 792 Hz).
 
@@ -50,32 +50,32 @@ L'analyse modale complexe a révélé l'existence de **modes doubles**, typiques
 
 Nous avons observé une **alternance d'énergie** entre la partie supérieure (plus petite) et la partie inférieure (plus grosse) de la cloche en fonction du mode double.
 
-![Déformée modale à 786 Hz](/projects/Rapport-Analyse-Modale/deforme_modale_cloche.png)
+![Déformée modale à 786 Hz](/projects/Analyse_Modale/deforme_modale_cloche.png)
 
-### B. Analyse d'un Panneau (Marteau d'Impact)
+### 2. Analyse d'un Panneau (Marteau d'Impact)
 
 L'analyse a été réalisée en fixant l'accéléromètre au dos et en tapant à chaque point du maillage. La FRF mesurée a montré clairement trois modes vibratoires principaux :
 * Mode 1 : **182.152 Hz** (Amortissement 4.18%)
 * Mode 2 : **331.642 Hz** (Amortissement 0.58%)
 * Mode 3 : **468.888 Hz** (Amortissement 1.83%)
 
-### C. Analyse d'une Poutre Revêtue (Méthode Oberst)
+### 3. Analyse d'une Poutre Revêtue (Méthode Oberst)
 
 La **méthode Oberst** est utilisée pour mesurer les propriétés mécaniques de matériaux amortissants fixés sur une poutre. L'étude comparative, avec et sans scotch (revêtement), a montré :
 
 * **Impact du revêtement** : L'ajout d'un revêtement augmente le **facteur de perte**. Les fréquences sont plus basses lorsque le revêtement est présent. On en déduit que le revêtement contribue à l'**amortissement total** de la structure.
 * **Propriétés matériaux** : Le module de Young est logiquement plus faible pour le scotch que pour la poutre. Le facteur de perte est lui plus grand pour le scotch.
 
-### D. Analyse de la Table d'Harmonie (Pot Vibrant)
+### 4. Analyse de la Table d'Harmonie (Pot Vibrant)
 
 L'excitation a été assurée par un pot vibrant, avec 10 accéléromètres déplacés sur la structure. L'extraction des modes a été réalisée avec le logiciel **MODAN/OROS**.
 
-![Table d'harmonie de piano](/projects/Rapport-Analyse-Modale/installation%20expérience_teble_harmonie_piano.jpg)
+![Table d'harmonie de piano](/projects/Analyse_Modale/installation_experience_teble_harmonie_piano.png)
 
 * **Résultats** : 14 modes ont été comptabilisés dans la plage 15-200 Hz.
 * **Validation** : La fonction de transfert simulée (basée sur les modes identifiés) est proche de la FRF réelle entre 50 et 200 Hz, mais s'en éloigne en plus haute fréquence.
 
-### E. Analyse de la Raquette de Tennis (Pot Vibrant & Vibromètre Laser)
+### 5. Analyse de la Raquette de Tennis (Pot Vibrant & Vibromètre Laser)
 
 Cette analyse a utilisé une technique sans contact : excitation par pot vibrant (fixé sur le manche) et mesure de la réponse par **vibromètre laser** (déplacé sur le maillage).
 
