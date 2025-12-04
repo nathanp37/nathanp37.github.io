@@ -12,7 +12,7 @@ const HeroBanner = () => {
             </div>
             <div className={styles.containerSkills}>
                 <div className={styles.skills}>
-                    <div className={`${styles.skill} ${styles.cpp}`}>Matlab</div>
+                    <div className={`${styles.skill} ${styles.python}`}>Matlab</div>
                     <div className={`${styles.skill} ${styles.c}`}>Solidworks</div>
                     <div className={`${styles.skill} ${styles.python}`}>Python</div>
                     <div className={`${styles.skill} ${styles.bash}`}>Kicad</div>

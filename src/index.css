@@ -11,19 +11,19 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FB6800;
+  background: #3585CD;
   border-radius: 10px;
   border: 2px solid white;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #FE8E3E;
+  background: #3585CD;
 }
 
 /* Pour Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #FB6800 white;
+  scrollbar-color: #3585CD white;
 }
 
 /* Reset CSS de base */
