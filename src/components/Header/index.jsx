@@ -50,7 +50,16 @@ const Header = () => {
             <div className={styles.content}>
                 <nav>
                     <ul className={styles.menu} ref={menuRef}>
-                        <li><a href="public/CV_Nathan.pdf" target="_blank" rel="noopener noreferrer" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Mon CV</a></li>
+                        <li><a 
+    href="/CV_Nathan.pdf" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    download="CV_Nathan_Prunotto.pdf" // Ajout de l'attribut download
+    onMouseOver={handleMouseOver} 
+    onMouseOut={handleMouseOut}
+>
+    Mon CV
+</a></li>
                         <li><a href="#" onClick={handleProjectsClick} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Projets</a></li>
                         <div className={styles.border} ref={borderRef}></div>
                     </ul>
