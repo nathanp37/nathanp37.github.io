@@ -51,7 +51,7 @@ const Header = () => {
                 <nav>
                     <ul className={styles.menu} ref={menuRef}>
                         <li><a 
-    href="public/mon-cv.pdf" 
+    href="mon-cv.pdf" 
     target="_blank" 
     rel="noopener noreferrer" 
     download="CV_Nathan_Prunotto.pdf" // Ajout de l'attribut download
