@@ -22,7 +22,7 @@ const HeroBanner = () => {
                     <div className={`${styles.skill} ${styles.cpp}`}>Kicad</div>
                     <div className={`${styles.skill} ${styles.c}`}>Arduino</div>
                     <div className={`${styles.skill} ${styles.python}`}>AEwin</div>
-                    <div className={`${styles.skill} ${styles.bash}`}>Noesis</div>
+                    <div className={`${styles.skill} ${styles.bash}`}>Latex</div>
                 </div>
             </div>
             <div className={styles.banner}>

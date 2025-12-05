@@ -36,10 +36,14 @@
   .containerSkills {
     width: 80%;
     max-width: 1200px;
+    /* z-index nécessaire pour être au-dessus de l'image si ça s'étend */
+    position: relative; 
+    z-index: 5; 
 
     .skills {
       display: flex;
-      width: 20rem;
+      width: 100%; /* Modification ici : on laisse prendre la largeur disponible */
+      max-width: 60rem; /* On limite pour ne pas que ça parte trop loin à droite */
       flex-wrap: wrap;
       gap: 1rem;
 
@@ -141,7 +145,7 @@
       width: 95%;
       
       .skills {
-        width: 18rem;
+        width: 100%; /* Modification ici */
         
         .skill {
           padding: 1.5rem;
@@ -189,9 +193,9 @@
       
       .skills {
         width: 100%;
-        max-width: 16rem;
+        max-width: 100%; /* Modification ici : on retire la contrainte stricte */
         margin: 0 auto;
-        justify-content: center;
+        justify-content: center; // Centre les bulles sur mobile
         
         .skill {
           padding: 1.2rem;
@@ -236,7 +240,7 @@
       padding: 0 1rem;
       
       .skills {
-        max-width: 14rem;
+        max-width: 100%; /* Modification ici */
         gap: 0.8rem;
         
         .skill {
