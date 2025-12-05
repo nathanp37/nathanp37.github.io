@@ -55,8 +55,7 @@ const Header = () => {
                         <li><a 
     href={cvFile}
     target="_blank" 
-    rel="noopener noreferrer" 
-    download="CV_Nathan_Prunotto.pdf" // Ajout de l'attribut download
+    rel="noopener noreferrer"
     onMouseOver={handleMouseOver} 
     onMouseOut={handleMouseOut}
 >

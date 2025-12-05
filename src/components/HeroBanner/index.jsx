@@ -12,10 +12,17 @@ const HeroBanner = () => {
             </div>
             <div className={styles.containerSkills}>
                 <div className={styles.skills}>
+                    {/* Compétences existantes */}
                     <div className={`${styles.skill} ${styles.python}`}>Matlab</div>
                     <div className={`${styles.skill} ${styles.c}`}>Solidworks</div>
                     <div className={`${styles.skill} ${styles.python}`}>Python</div>
                     <div className={`${styles.skill} ${styles.bash}`}>Comsol</div>
+                    
+                    {/* Nouvelles compétences ajoutées depuis le CV */}
+                    <div className={`${styles.skill} ${styles.cpp}`}>Kicad</div>
+                    <div className={`${styles.skill} ${styles.c}`}>Arduino</div>
+                    <div className={`${styles.skill} ${styles.python}`}>AEwin</div>
+                    <div className={`${styles.skill} ${styles.bash}`}>Noesis</div>
                 </div>
             </div>
             <div className={styles.banner}>
