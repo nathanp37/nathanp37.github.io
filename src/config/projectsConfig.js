@@ -2,5 +2,6 @@
 export const PROJECTS_LIST = [
     "Analyse_Modale",
     "Projet5A",
-    "StageCEA"
+    "StageCEA",
+    "Bilan_Carbone"
 ];
