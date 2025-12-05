@@ -3,5 +3,6 @@ export const PROJECTS_LIST = [
     "Analyse_Modale",
     "Bilan_Carbone",
     "Projet5A",
-    "StageCEA"
+    "StageCEA",
+    "Vibroacoustique"
 ];
