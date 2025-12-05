@@ -6,11 +6,14 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;  <-- REMPLACER PAR :
+  align-items: flex-start; // Aligne le contenu à gauche
   justify-content: center;
 
   .description {
-    width: 80%;
+    // width: 80%; <-- REMPLACER PAR :
+    width: 50%; // Limite la largeur à la moitié de l'écran pour ne pas toucher la photo
+    margin-left: 10%; // Ajoute une marge à gauche pour l'esthétique
     max-width: 1200px;
     z-index: 6;
     margin-bottom: 6rem;
@@ -34,18 +37,21 @@
   }
 
   .containerSkills {
-    width: 80%;
+    // width: 80%; <-- REMPLACER PAR :
+    width: 50%; // Limite aussi la zone des compétences
+    margin-left: 10%; // Même marge que la description
     max-width: 1200px;
-    /* z-index nécessaire pour être au-dessus de l'image si ça s'étend */
-    position: relative; 
-    z-index: 5; 
+    position: relative;
+    z-index: 5;
 
     .skills {
       display: flex;
-      width: 100%; /* Modification ici : on laisse prendre la largeur disponible */
-      max-width: 60rem; /* On limite pour ne pas que ça parte trop loin à droite */
+      width: 100%; 
+      max-width: none; // On laisse le conteneur gérer la largeur max
       flex-wrap: wrap;
       gap: 1rem;
+      // ... (inchangé)
+    }
 
       .skill {
         width: auto;
@@ -104,7 +110,7 @@
 @media (max-width: 1200px) {
   .container {
     .description {
-      width: 90%;
+      width: 55%;
       
       .title {
         font-size: 80px;
@@ -116,7 +122,7 @@
     }
     
     .containerSkills {
-      width: 90%;
+      width: 55%;
     }
     
     .banner img {
@@ -128,7 +134,7 @@
 @media (max-width: 1024px) {
   .container {
     .description {
-      width: 95%;
+      width: 60%;
       margin-bottom: 4rem;
       
       .title {
@@ -142,7 +148,7 @@
     }
     
     .containerSkills {
-      width: 95%;
+      width: 60%;
       
       .skills {
         width: 100%; /* Modification ici */
@@ -165,9 +171,11 @@
     height: auto;
     min-height: 100vh;
     padding: 8rem 0 4rem 0;
+    align-items: center; // IMPORTANT : On repasse au centre sur mobile/tablette
     
     .description {
-      width: 100%;
+      width: 100%; // Pleine largeur
+      margin-left: 0; // On retire la marge gauche
       padding: 0 2rem;
       margin-bottom: 3rem;
       text-align: center;
@@ -188,7 +196,8 @@
     }
     
     .containerSkills {
-      width: 100%;
+      width: 100%; // Pleine largeur
+      margin-left: 0; // On retire la marge gauche
       padding: 0 2rem;
       
       .skills {
