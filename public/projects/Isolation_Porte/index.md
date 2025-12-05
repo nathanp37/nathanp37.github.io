@@ -26,8 +26,8 @@ Nous avons mesuré l'indice d'affaiblissement acoustique (R) par intensimétrie 
 ### 2. Modélisation sous Maine 3A
 Pour comprendre l'origine de ce défaut, nous avons modélisé le panneau (sandwich Acier / Laine de roche / Acier) sur le logiciel **Maine 3A**.
 Une phase de **recalage de modèle** a été nécessaire pour déterminer les paramètres inconnus de la laine de roche :
-* Module d'Young complexe ($E^*$) : $E' = 0.4 \text{ MPa}$, $\eta = 0.12$.
-* L'ajustement a permis de superposer parfaitement la simulation aux mesures expérimentales.
+* **Module d'Young (E')** : 0.4 MPa
+* **Facteur de perte (η)** : 0.12
 
 ![Comparaison Modèle vs Expérience](/projects/Isolation_Porte/recalage_modele.png)
 
