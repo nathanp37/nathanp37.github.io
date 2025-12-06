@@ -15,8 +15,8 @@ Le défi consistait à suivre l'apparition et l'évolution des dommages internes
 
 ## Méthodologie et Objectifs Atteints 🎯
 
-La méthode utilisée pour ce suivi est l'**Émission Acoustique (EA)**. L’**EA** est une méthode non destructive qui permet de suivre en temps réel l’évolution de l’endommagement d’un matériau sous sollicitation (mécanique, thermique ou physico- chimique). 
-Cette technique consiste à détecter, par des capteurs placés en surface de la structure, des ondes acoustiques émises par un défaut nouveau
+La méthode utilisée pour ce suivi est l'**Émission Acoustique (EA)**. L’**EA** est une méthode non destructive qui permet de suivre en temps réel l’évolution de l’endommagement d’un matériau sous sollicitation (mécanique, thermique ou physico-chimique). 
+Cette technique consiste à détecter, par des capteurs placés en surface de la structure, des ondes acoustiques émises par un défaut nouveau.
 
 La mise en œuvre a combiné une instrumentation spécifique (capteurs Micro80) et le post-traitement des données avec des scripts **Python** et des algorithmes de classification.
 
