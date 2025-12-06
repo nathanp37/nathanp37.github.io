@@ -2,8 +2,8 @@
 export const PROJECTS_LIST = [
     "Analyse_Modale",
     "Bilan_Carbone",
+    "Isolation_Porte",
     "Projet5A",
     "StageCEA",
-    "Vibroacoustique",
-    "Isolation_porte"
+    "Vibroacoustique"
 ];
