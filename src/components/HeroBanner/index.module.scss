@@ -84,17 +84,19 @@
 
   .banner {
     position: absolute;
-    width: 100%;
+    width: 50%;           /* Limite le conteneur à la moitié droite de l'écran */
+    height: 100%;         /* Prend toute la hauteur pour permettre le centrage vertical */
     top: 0;
     right: 0;
     display: flex;
-    justify-content: end;
+    justify-content: center; /* Centre horizontalement dans la zone droite */
+    align-items: center;     /* Centre verticalement dans la zone droite */
     z-index: 1;
 
     img {
-      width: 30%;
+      width: 40%;         /* Ajustez ce % pour grossir/réduire l'image dans sa zone */
       height: auto;
-      object-fit: cover;
+      object-fit: contain; /* Évite de déformer l'image */
     }
   }
 
