@@ -3,7 +3,8 @@ export const PROJECTS_LIST = [
     "Analyse_Modale",
     "Bilan_Carbone",
     "Isolation_Porte",
-    "Projet5A",
+    "Projet5A_Mobius",
     "StageCEA",
-    "Vibroacoustique"
+    "Vibroacoustique",
+    "Projet4A_Robotique"
 ];

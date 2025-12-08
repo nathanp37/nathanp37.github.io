@@ -1,7 +1,7 @@
 ---
 title: "Projet de 5ème Année : Analyse Vibratoire d'un Ruban de Möbius, Modélisation et Expérimentation"
 date: "2025-12-03"
-cover: "/projects/Projet5A/mobius.png"
+cover: "/projects/Projet5A_Mobius/mobius.png"
 tags: ["Vibrations", "Modélisation", "Expérimentation", "ANSYS", "MATLAB", "COMSOL"]
 ---
 
@@ -30,7 +30,7 @@ La phase expérimentale a permis d'obtenir les données vibratoires réelles.
 * **Acquisition** : L'excitation a été réalisée à l'aide d'un **marteau instrumenté**, et les mesures ont été prises par accéléromètre.
 * **Post-traitement** : L'extraction des **Fonctions de Réponse en Fréquence (FRF)** et des **modes propres** a été effectuée à l'aide de la méthode **PolyMAX** (logiciel Testlab).
 
-![Montage expérimental de l'analyse vibratoire](/projects/Projet5A/experimental.png)
+![Montage expérimental de l'analyse vibratoire](/projects/Projet5A_Mobius/experimental.png)
 
 ### 3. Modélisation Numérique (COMSOL)
 
@@ -53,7 +53,7 @@ L'ajout d'une torsion a eu un impact non linéaire sur les fréquences de vibrat
 * Les **modes supérieurs** connaissent une **diminution** notable des fréquences propres.
 * Nous avons établi une dépendance **quadratique** entre la fréquence et l'angle de torsion.
 
-![Influence de l'angle de vrille sur les fréquences propres d'une poutre](/projects/Projet5A/influencevrille.png)
+![Influence de l'angle de vrille sur les fréquences propres d'une poutre](/projects/Projet5A_Mobius/influencevrille.png)
 
 ### 2. Comportement du Ruban de Möbius
 
@@ -62,7 +62,7 @@ La comparaison entre un anneau classique et un ruban de Möbius a révélé une 
 * Le ruban de Möbius montre une **baisse significative des modes supérieurs** par rapport à l'anneau.
 * **Changement Topologique** : La topologie du Möbius modifie la **propagation de l'onde de flexion**, nécessitant deux tours complets de la structure pour retrouver la même polarisation de l'onde.
 
-![Comparaison des FRF entre l'Anneau et le Ruban de Möbius](/projects/Projet5A/FRFAnneauMobius.png)
+![Comparaison des FRF entre l'Anneau et le Ruban de Möbius](/projects/Projet5A_Mobius/FRFAnneauMobius.png)
 
 ---
 
