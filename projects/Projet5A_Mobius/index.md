@@ -1,6 +1,6 @@
 ---
 title: "Projet de 5ème Année : Analyse Vibratoire d'un Ruban de Möbius, Modélisation et Expérimentation"
-date: "2025-12-03"
+date: "2025-02-03"
 cover: "/projects/Projet5A_Mobius/mobius.png"
 tags: ["Vibrations", "Modélisation", "Expérimentation", "ANSYS", "MATLAB", "COMSOL"]
 ---

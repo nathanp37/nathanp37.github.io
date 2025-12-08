@@ -7,12 +7,9 @@ tags: ["Robotique", "Systèmes Embarqués", "Conception PCB", "STM32", "KiCad", 
 
 ## Contexte : Mission sur Mars 🪐
 
-Ce projet marque l'aboutissement de ma 4ème année d'école d'ingénieur : la participation à la **Coupe de France de Robotique 2024** sur le thème "Farming Mars". La table de jeu est représenté ci dessous.
+Ce projet marque l'aboutissement de ma 4ème année d'école d'ingénieur : la participation à la **Coupe de France de Robotique 2024** sur le thème "Farming Mars". 
 
-![Vue CAD du robot complet](/projects/Projet4A_Robotique/table_jeu.png)
-
-
-L'objectif ? Concevoir un robot **100% autonome** capable de marquer un maximum de points en 90 secondes. Pour relever ce défi, nous avons développé un robot mobile doté de pinces pour la préhension de plantes et d'un système de navigation précis.
+L'objectif ? Concevoir un robot **100% autonome** capable de marquer un maximum de points sur une table de jeu en 90 secondes. Pour relever ce défi, nous avons développé un robot mobile doté de pinces pour la préhension de plantes et d'un système de navigation précis.
 
 ![Vue CAD du robot complet](/projects/Projet4A_Robotique/robot.png)
 
@@ -40,7 +37,7 @@ Dédiée à la gestion de l'énergie, cette carte convertit la tension batterie 
 * **Réseaux Interruptibles (5V et 12V)** : Pilotés par un relais **G2R-1-E-DC12** relié à l'arrêt d'urgence, ils coupent instantanément l'alimentation des actionneurs (servomoteurs AX-12, moteurs CC) en cas de danger.
 * **Sécurité** : Ajout d'un fusible automobile pour protéger l'électronique contre les inversions de polarité batterie.
 
-![Vue de l'étage de puissance](/projects/Projet4A_Robotique/puissance.png)
+![Vue de l'étage de puissance](/projects/Projet4A_Robotique/schema_puissance.png)
 
 ---
 
