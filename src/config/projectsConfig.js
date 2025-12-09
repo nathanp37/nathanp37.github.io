@@ -6,5 +6,6 @@ export const PROJECTS_LIST = [
     "Projet5A_Mobius",
     "StageCEA",
     "Vibroacoustique",
-    "Projet4A_Robotique"
+    "Projet4A_Robotique",
+    "Caracterisation_Acoustique"
 ];
