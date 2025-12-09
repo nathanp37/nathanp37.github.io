@@ -1,7 +1,7 @@
 ---
 title: "Caractérisation de Matériaux Poreux & Isolation Acoustique"
 date: "2023-11-20"
-cover: "/projects/Caracterisation_Acoustique/assets/images/equipe_cabine.png"
+cover: "/projects/Caracterisation_Acoustique/cover.png"
 tags: ["Acoustique", "Matériaux Poreux", "Isolation", "Maine 3A", "Expérimentation"]
 ---
 
@@ -14,7 +14,7 @@ Ce projet académique, réalisé à l'ENSIM, a pour objectif d'effectuer des ess
 
 Les résultats expérimentaux ont été confrontés aux modèles théoriques (Biot) et aux simulations numériques réalisées sur le logiciel **Maine 3A**.
 
-![L'équipe projet devant la paroi de test en bois](/projects/Caracterisation_Acoustique/assets/images/equipe_cabine.png)
+![L'équipe projet devant la paroi de test en bois](/projects/Caracterisation_Acoustique/equipe_cabine.png)
 
 ---
 
@@ -39,13 +39,13 @@ Le tube de Kundt permet de mesurer l'absorption sous incidence normale en géné
 * **100 mm** : Pour les basses fréquences (185 Hz - 1991 Hz).
 * **29 mm** : Pour les hautes fréquences (154 Hz - 6867 Hz).
 
-![Configurations du tube de Kundt (100mm et 30mm)](/projects/Caracterisation_Acoustique/assets/images/schema_kundt.png)
+![Configurations du tube de Kundt (100mm et 30mm)](/projects/Caracterisation_Acoustique/schema_kundt.png)
 
 **Résultats :**
 * **Mélamine** : On observe une chute d'absorption caractéristique vers 1300 Hz due à une résonance de squelette (effet Biot).
 * **Laine de Roche** : Elle présente une meilleure performance en haute fréquence, avec un coefficient d'absorption tendant vers 1.
 
-![Comparaison des coefficients d'absorption](/projects/Caracterisation_Acoustique/assets/images/graph_absorption.png)
+![Comparaison des coefficients d'absorption](/projects/Caracterisation_Acoustique/graph_absorption.png)
 
 ### 1.2 Capteur à Impédance (Paramètres Intrinsèques)
 Contrairement au tube de Kundt, le capteur à impédance permet de remonter aux paramètres physiques du modèle de fluide équivalent, incluant la dissipation thermique et visqueuse :
@@ -54,7 +54,7 @@ Contrairement au tube de Kundt, le capteur à impédance permet de remonter aux 
 * **$\alpha_{\infty}$** : Tortuosité.
 * **$\Lambda, \Lambda'$** : Longueurs caractéristiques visqueuse et thermique.
 
-![Capteur d'impédance utilisé pour la caractérisation](/projects/Caracterisation_Acoustique/assets/images/capteur_impedance.png)
+![Capteur d'impédance utilisé pour la caractérisation](/projects/Caracterisation_Acoustique/capteur_impedance.png)
 
 ---
 
@@ -67,12 +67,12 @@ Cette partie se concentre sur la mesure de l'indice d'affaiblissement (TL) de pa
 * **Mesure** : Utilisation d'une sonde intensimétrique avec un balayage manuel en forme de "S" pour moyenner le champ acoustique.
 * **Calcul** : $TL = 10 \log(I_{incidente} / I_{transmise})$.
 
-![Schéma du balayage à la sonde intensimétrique](/projects/Caracterisation_Acoustique/assets/images/trajectoire_sonde.png)
+![Schéma du balayage à la sonde intensimétrique](/projects/Caracterisation_Acoustique/trajectoire_sonde.png)
 
 ### 2.2 Résultats et Comparaison (Expérience vs Maine 3A)
 Nous avons comparé nos mesures expérimentales avec des simulations numériques sur le logiciel **Maine 3A**. La comparaison montre une bonne corrélation, validant le modèle de prédiction pour des parois multicouches avec lame d'air (Configuration Bois/Air/Acier).
 
-![Comparaison Simulation vs Expérience du TL](/projects/Caracterisation_Acoustique/assets/images/graph_TL_multicouche.png)
+![Comparaison Simulation vs Expérience du TL](/projects/Caracterisation_Acoustique/graph_TL_multicouche.png)
 
 ---
 
