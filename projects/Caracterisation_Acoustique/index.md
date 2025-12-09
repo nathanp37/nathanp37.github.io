@@ -1,7 +1,7 @@
 ---
 title: "Caractérisation de Matériaux Poreux & Isolation Acoustique"
 date: "2023-11-20"
-cover: "/projects/Caracterisation_Acoustique/cover.png"
+cover: "/projects/Caracterisation_Acoustique/cover.webp"
 tags: ["Acoustique", "Matériaux Poreux", "Isolation", "Maine 3A", "Expérimentation"]
 ---
 
