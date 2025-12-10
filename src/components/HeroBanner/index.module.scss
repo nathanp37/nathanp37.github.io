@@ -7,8 +7,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  padding-top: 9rpm;
+  /* ON CHANGE ICI : On ne centre plus verticalement, on gère l'espacement nous-même */
+  justify-content: flex-start;
+  
+  /* On pousse le contenu vers le bas : 
+     7rem (taille du header) + environ 20vh (20% de l'écran) pour un centrage visuel agréable */
+  padding-top: calc(7rem + 15vh); 
   box-sizing: border-box;
 
   .description {
@@ -16,7 +20,8 @@
     margin-left: 10%;
     max-width: 1200px;
     z-index: 6;
-    margin-bottom: 6rem;
+    /* On retire la marge basse qui ne sert plus au centrage */
+    margin-bottom: 0;
 
     .title {
       color: vars.$tertiaryColor;
@@ -40,14 +45,14 @@
     width: 50%;
     margin-left: 10%;
     max-width: 1200px;
-    /* z-index nécessaire pour être au-dessus de l'image si ça s'étend */
     position: relative; 
-    z-index: 5; 
+    z-index: 5;
+    margin-top: 4rem; /* Un peu d'espace entre le texte et les skills */
 
     .skills {
       display: flex;
-      width: 100%; /* Modification ici : on laisse prendre la largeur disponible */
-      max-width: 38rem; /* On limite pour ne pas que ça parte trop loin à droite */
+      width: 100%;
+      max-width: 38rem;
       flex-wrap: wrap;
       gap: 1rem;
 
@@ -71,6 +76,7 @@
 
       .c {
         background-color: vars.$primaryColor !important;
+        color: black; /* Ajout pour lisibilité si besoin */
       }
 
       .python {
@@ -86,19 +92,24 @@
 
   .banner {
     position: absolute;
-    width: 50%;           /* Limite le conteneur à la moitié droite de l'écran */
-    height: 100%;         /* Prend toute la hauteur pour permettre le centrage vertical */
-    top: 0;
+    width: 50%;
     right: 0;
+    /* CORRECTION PHOTO : Elle commence SOUS le header (7rem) */
+    top: 7rem;
+    /* Sa hauteur est le reste de l'écran */
+    height: calc(100% - 7rem);
+    
     display: flex;
-    justify-content: center; /* Centre horizontalement dans la zone droite */
-    align-items: center;     /* Centre verticalement dans la zone droite */
+    justify-content: center;
+    align-items: center;
     z-index: 1;
 
     img {
-      width: 65%;         /* Ajustez ce % pour grossir/réduire l'image dans sa zone */
+      width: 65%;
       height: auto;
-      object-fit: contain; /* Évite de déformer l'image */
+      object-fit: contain;
+      /* On limite la hauteur pour éviter que la photo ne soit trop grande */
+      max-height: 80%; 
     }
   }
 
@@ -112,23 +123,11 @@
   .container {
     .description {
       width: 55%;
-      
-      .title {
-        font-size: 80px;
-      }
-      
-      .descriptionOfDescription {
-        width: 30rem;
-      }
+      .title { font-size: 80px; }
+      .descriptionOfDescription { width: 30rem; }
     }
-    
-    .containerSkills {
-      width: 55%;
-    }
-    
-    .banner img {
-      width: 45%;
-    }
+    .containerSkills { width: 55%; }
+    .banner img { width: 45%; }
   }
 }
 
@@ -136,34 +135,17 @@
   .container {
     .description {
       width: 60%;
-      margin-bottom: 4rem;
-      
-      .title {
-        font-size: 70px;
-      }
-      
-      .descriptionOfDescription {
-        width: 28rem;
-        font-size: 1.1rem;
-      }
+      .title { font-size: 70px; }
+      .descriptionOfDescription { width: 28rem; font-size: 1.1rem; }
     }
-    
     .containerSkills {
       width: 95%;
-      
       .skills {
-        width: 100%; /* Modification ici */
-        
-        .skill {
-          padding: 1.5rem;
-          font-size: 35px;
-        }
+        width: 100%;
+        .skill { padding: 1.5rem; font-size: 35px; }
       }
     }
-    
-    .banner img {
-      width: 40%;
-    }
+    .banner img { width: 40%; }
   }
 }
 
@@ -171,21 +153,22 @@
   .container {
     height: auto;
     min-height: 100vh;
-    padding: 8rem 0 4rem 0;
+    /* Sur mobile, on remet un alignement centré classique car l'image passe en dessous */
     align-items: center;
+    justify-content: center;
+    /* On garde un gros padding haut pour le header mobile */
+    padding: 8rem 0 4rem 0; 
     
     .description {
-      width: 100%; // Pleine largeur
-      margin-left: 0; // On retire la marge gauche
+      width: 100%;
+      margin-left: 0;
       padding: 0 2rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
       text-align: center;
       
       .title {
         font-size: 50px;
-        br {
-          display: none;
-        }
+        br { display: none; }
       }
       
       .descriptionOfDescription {
@@ -197,15 +180,16 @@
     }
     
     .containerSkills {
-      width: 100%; // Pleine largeur
-      margin-left: 0; // On retire la marge gauche
+      width: 100%;
+      margin-left: 0;
       padding: 0 2rem;
+      margin-top: 2rem;
       
       .skills {
         width: 100%;
-        max-width: 100%; /* Modification ici : on retire la contrainte stricte */
+        max-width: 100%;
         margin: 0 auto;
-        justify-content: center; // Centre les bulles sur mobile
+        justify-content: center;
         
         .skill {
           padding: 1.2rem;
@@ -218,12 +202,15 @@
     .banner {
       position: relative;
       width: 100%;
-      margin-top: 2rem;
+      height: auto;
+      top: 0; /* Reset du top sur mobile */
+      margin-top: 3rem;
       justify-content: center;
       
       img {
         width: 80%;
         max-width: 400px;
+        max-height: none;
       }
     }
   }
@@ -235,40 +222,23 @@
     
     .description {
       padding: 0 1rem;
-      margin-bottom: 2rem;
-      
-      .title {
-        font-size: 40px;
-      }
-      
-      .descriptionOfDescription {
-        font-size: 0.95rem;
-        max-width: 20rem;
-      }
+      margin-bottom: 1.5rem;
+      .title { font-size: 40px; }
+      .descriptionOfDescription { font-size: 0.95rem; max-width: 20rem; }
     }
     
     .containerSkills {
       padding: 0 1rem;
-      
       .skills {
-        max-width: 100%; /* Modification ici */
+        max-width: 100%;
         gap: 0.8rem;
-        
-        .skill {
-          padding: 1rem;
-          font-size: 25px;
-          height: 1.2rem;
-        }
+        .skill { padding: 1rem; font-size: 25px; height: 1.2rem; }
       }
     }
     
     .banner {
-      margin-top: 1.5rem;
-      
-      img {
-        width: 90%;
-        max-width: 300px;
-      }
+      margin-top: 2rem;
+      img { width: 90%; max-width: 300px; }
     }
   }
 }
