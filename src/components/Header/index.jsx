@@ -43,7 +43,19 @@ const Header = () => {
         e.preventDefault();
         const projectsSection = document.querySelector('[data-section="projects"]');
         if (projectsSection) {
-            projectsSection.scrollIntoView({ behavior: 'smooth' });
+            /* --- CORRECTION SCROLL --- */
+            // On récupère la position de la section par rapport à la fenêtre
+            const elementPosition = projectsSection.getBoundingClientRect().top;
+            // On ajoute le scroll actuel pour avoir la position absolue
+            // Et on SOUSTRAIT une marge (offset) pour compenser le header fixe
+            const headerOffset = 120; // 120px correspond à peu près à la hauteur du header + un peu d'espace
+            const offsetPosition = elementPosition + window.scrollY - headerOffset;
+    
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+            });
+            /* ------------------------- */
         }
     };
 
