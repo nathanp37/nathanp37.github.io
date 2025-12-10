@@ -48,7 +48,7 @@ const Header = () => {
             const elementPosition = projectsSection.getBoundingClientRect().top;
             // On ajoute le scroll actuel pour avoir la position absolue
             // Et on SOUSTRAIT une marge (offset) pour compenser le header fixe
-            const headerOffset = 100; // 120px correspond à peu près à la hauteur du header + un peu d'espace
+            const headerOffset = 105; // 120px correspond à peu près à la hauteur du header + un peu d'espace
             const offsetPosition = elementPosition + window.scrollY - headerOffset;
     
             window.scrollTo({
