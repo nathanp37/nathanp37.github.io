@@ -47,6 +47,7 @@ Le tube de Kundt permet de mesurer l'absorption sous incidence normale en géné
 
 ### 1.2 Capteur à Impédance (Paramètres Intrinsèques)
 Contrairement au tube de Kundt, le capteur à impédance permet de remonter aux paramètres physiques du modèle de fluide équivalent, incluant la dissipation thermique et visqueuse :
+
 * σ : Résistivité au passage de l'air.
 
 * ϕ : Porosité.
