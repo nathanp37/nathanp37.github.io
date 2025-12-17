@@ -17,7 +17,13 @@ Nous avons mis en œuvre deux techniques de mesure principales :
 
 ## Méthodologie : Des FRF aux Modes Propres 🛠️
 
-L'analyse modale utilise les **Fonctions de Réponse en Fréquence (FRF)**, spécifiquement les fonctions de transfert accélération / force. Ces fonctions de réponse sont définies par $H_{ij}=\frac{a_{i}}{F_{j}}$. La détermination des modes repose sur la mesure de ces FRF sur un maillage de points (DDL) de la structure.
+L'analyse modale utilise les **Fonctions de Réponse en Fréquence (FRF)**, spécifiquement les fonctions de transfert accélération / force. Ces fonctions de réponse sont définies par :
+
+$$
+H_{ij} = \frac{a_{i}}{F_{j}}
+$$
+
+La détermination des modes repose sur la mesure de ces FRF sur un maillage de points (DDL) de la structure.
 
 ### 1. Systèmes de Mesure Employés
 
@@ -63,9 +69,11 @@ L'analyse a été réalisée en fixant l'accéléromètre au dos et en tapant à
 
 ### 3. Analyse d'une Poutre Revêtue (Méthode Oberst)
 
-La **méthode Oberst** est utilisée pour mesurer les propriétés mécaniques de matériaux amortissants fixés sur une poutre. L'étude comparative, avec et sans scotch (revêtement), a montré :
+La **méthode Oberst** est utilisée pour mesurer les propriétés mécaniques de matériaux amortissants fixés sur une poutre. 
 
 ![Déformée modale à 786 Hz](/projects/Analyse_Modale/oberst.png)
+
+L'étude comparative, avec et sans scotch (revêtement), a montré :
 
 * **Impact du revêtement** : L'ajout d'un revêtement augmente le **facteur de perte**. Les fréquences sont plus basses lorsque le revêtement est présent. On en déduit que le revêtement contribue à l'**amortissement total** de la structure.
 * **Propriétés matériaux** : Le module de Young est logiquement plus faible pour le scotch que pour la poutre. Le facteur de perte est lui plus grand pour le scotch.
