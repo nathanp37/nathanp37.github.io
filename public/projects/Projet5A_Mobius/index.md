@@ -22,6 +22,8 @@ La méthodologie s'est articulée autour de trois étapes principales pour assur
 ### 1. Conception et Fabrication
 Nous avons conçu les structures (poutre simple, poutre vrillée, anneau, ruban de Möbius) sous **SolidWorks** et les avons fabriquées par **impression 3D en résine** (Formlabs). Ce choix a permis de garantir l'**homogénéité** des propriétés mécaniques pour les tests.
 
+![Montage expérimental de l'analyse vibratoire](/projects/Projet5A_Mobius/modele_3D.png)
+
 ### 2. Analyse Expérimentale (Identification Modale)
 
 La phase expérimentale a permis d'obtenir les données vibratoires réelles.
