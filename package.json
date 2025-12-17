@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
+    "katex": "^0.16.27",
     "marked": "^16.1.1",
+    "marked-katex-extension": "^5.1.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-markdown": "^10.1.0"

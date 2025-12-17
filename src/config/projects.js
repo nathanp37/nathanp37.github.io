@@ -1,6 +1,12 @@
 import { marked } from 'marked';
+import markedKatex from "marked-katex-extension"; // 1. Importer l'extension
 import matter from 'gray-matter';
 import { PROJECTS_LIST } from './projectsConfig.js';
+
+// 2. Configurer marked pour utiliser l'extension
+marked.use(markedKatex({
+    throwOnError: false // Évite de planter si une formule est mal écrite
+}));
 
 /**
  * Charge et parse la configuration de tous les projets depuis leurs fichiers index.md.
@@ -47,3 +53,4 @@ export const getProjects = async () => {
 
     return projects;
 };
+
