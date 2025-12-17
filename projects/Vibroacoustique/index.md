@@ -29,7 +29,11 @@ Nous avons cherché à distinguer les **modes de structure** (vibration de la ta
 ![Comparaison des FRF selon les configurations](/projects/Vibroacoustique/comparaison_frf.png)
 
 ### 2. Le Tube en U
-L'objectif était de comprendre comment une pression acoustique interne peut générer des vibrations mécaniques importantes sur une tuyauterie industrielle. Nous avons étudié un **mode de balancement** du tube excité par une onde plane acoustique.
+L'objectif était de comprendre comment une pression acoustique interne peut générer des vibrations mécaniques importantes sur une tuyauterie industrielle. 
+
+![Déformée modale du tube en U](/projects/Vibroacoustique/tube.png)
+
+Nous avons étudié un **mode de balancement** du tube excité par une onde plane acoustique.
 
 ---
 
