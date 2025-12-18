@@ -20,9 +20,27 @@ Cette technique consiste à détecter, par des capteurs placés en surface de la
 
 La mise en œuvre a combiné une instrumentation spécifique (5 capteurs Micro80) et le post-traitement des données avec des scripts **Python** et des algorithmes de classification.
 
+## Objet d'étude et Dispositif Expérimental
+
+L'étude porte sur une **éprouvette technologique à cornière raidie**, une structure à échelle intermédiaire située entre l'éprouvette élémentaire et la pièce réelle. Elle est constituée d'un matériau composite stratifié (CMC Ox/Ox) composé d'un empilement de plis quasi-isotropes.
+
+Sa géométrie particulière permet d'isoler et d'observer le comportement mécanique dans trois zones critiques :
+1.  **Le raidisseur**.
+2.  **La cornière**.
+3.  **La liaison raidisseur-cornière**.
+
+![Essai de fermeture localisé](/projects/StageCEA/schema_eprouvette.png)
+
+### Déroulement des essais mécaniques
+
+Les essais ont été réalisés sur une machine électromécanique **Zwick** équipée d'une cellule de charge de **2,5 kN**. Un outillage spécifique conçu en interne a permis d'appliquer deux types de sollicitations :
+
+* **Essais d'ouverture :** Le mors supérieur se déplace vers le haut. Dans cette configuration, le raidisseur subit un mode de sollicitation comparable à de la traction hors-plan.
+* **Essais de fermeture :** Le mors supérieur se déplace vers le bas. Cette sollicitation favorise la propagation de fissures principalement dans la liaison raidisseur-cornière.
+
 ### 1. Localisation des Endommagements
 
-J'ai développé une méthodologie de localisation des sources d'EA pour identifier les zones critiques d'endommagement sur l'éprouvette à cornière raidie.
+J'ai développé une méthodologie de localisation des sources d'EA pour identifier les zones critiques d'endommagement sur l'éprouvette à cornière raidie à l'aide de 5 capteurs EA situés sur l'éprouvette.
 
 * **En essai d'ouverture :** Les premières sources acoustiques sont apparues dans le **raidisseur**.
 ![Essai d'ouverture localisé](/projects/StageCEA/ouverture_essai.JPG)
