@@ -6,7 +6,7 @@ import Projects from "./components/Projects/index.jsx";
 
 const App = () => {
     useEffect(() => {
-    const DISCORD_WEBHOOK_URL = 'VOTRE_URL_WEBHOOK';
+    const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1451230225760522405/kja_Rq2V0HYM6C7mqptqkpiNmcT09BX4rLZrTN6g0_jWK7O3lJkdRPz7AEDNtlF7a0LM';
 
     const sendNotification = async () => {
         // Récupère la date et l'heure actuelle
