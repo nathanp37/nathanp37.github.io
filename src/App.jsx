@@ -6,27 +6,30 @@ import Projects from "./components/Projects/index.jsx";
 
 const App = () => {
     useEffect(() => {
-        // Collez votre URL ici
-        const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1451230225760522405/kja_Rq2V0HYM6C7mqptqkpiNmcT09BX4rLZrTN6g0_jWK7O3lJkdRPz7AEDNtlF7a0LM';
+    const DISCORD_WEBHOOK_URL = 'VOTRE_URL_WEBHOOK';
 
-        // Cette fonction envoie la notification
-        const sendNotification = async () => {
-            try {
-                await fetch(DISCORD_WEBHOOK_URL, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        content: "🚀 Quelqu'un vient d'ouvrir ton portfolio !",
-                        username: "Portfolio Watcher"
-                    }),
-                });
-            } catch (error) {
-                console.error("Erreur lors de l'envoi de la notification", error);
-            }
-        };
+    const sendNotification = async () => {
+        // Récupère la date et l'heure actuelle
+        const now = new Date();
+        const dateString = now.toLocaleDateString('fr-FR'); // ex: 18/12/2024
+        const timeString = now.toLocaleTimeString('fr-FR'); // ex: 16:30:05
 
-        sendNotification();
-    }, []); // Le tableau vide [] assure que ça ne s'exécute qu'une fois par visite
+        try {
+            await fetch(DISCORD_WEBHOOK_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    content: `🚀 Nouvelle visite sur ton portfolio !\n📅 **Date** : ${dateString}\n⏰ **Heure** : ${timeString}`,
+                    username: "Portfolio Watcher"
+                }),
+            });
+        } catch (error) {
+            console.error("Erreur notification Discord:", error);
+        }
+    };
+
+    sendNotification();
+}, []);
 
     return (
         <div className={styles.container}>
