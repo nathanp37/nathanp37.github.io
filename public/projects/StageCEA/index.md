@@ -1,5 +1,5 @@
 ---
-title: "Stage de fin d'étude : Suivi d'essais mécaniques par Emission Acoustique"
+title: "Stage de fin d'étude : Suivi d'Essais Mécaniques par Emission Acoustique"
 date: "2025-08-22"
 cover: "/projects/StageCEA/cea_logo.PNG"
 tags: ["Emission Acoustique", "Matériaux", "CMC", "Python", "Traitement du signal", "Classification non supervisée"]
