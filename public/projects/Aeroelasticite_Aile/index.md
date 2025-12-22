@@ -26,11 +26,11 @@ Pour garantir la fiabilité des résultats, une attention particulière a été 
 
 ![conditions limites](/projects/Aeroelasticite_Aile/condition_limite.png)
 
-* **Chargement** : Application d'une force de portance compensant le poids de l'avion :
+* **Chargement** : Application d'une force de portance compensant le poids de l'avion appliquée sur l'intrados :
 
 $$F=\frac{m_{\text{tow}} \cdot g}{2}$$ 
 
-appliquée sur l'intrados.
+
 
 
 ![conditions limites](/projects/Aeroelasticite_Aile/intrados.png)
