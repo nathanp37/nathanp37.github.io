@@ -23,13 +23,13 @@ Le banc d'essai permet de tester différentes configurations de masses (volants 
 
 
 ![Schéma expérimental](/projects/Vitesse_Critique/schema_dispositif.png)
-*Figure 1 : Schéma du dispositif incluant le moteur, les volants d'inertie et la chaîne d'acquisition OROS[cite: 13, 88].*
+*Figure 1 : Schéma du dispositif incluant le moteur, les volants d'inertie et la chaîne d'acquisition OROS.*
 
 ---
 
 ## Modélisation Théorique 📐
 
-[cite_start]Pour déterminer les vitesses critiques, nous modélisons la raideur de l'arbre en fonction de la position **x** des volants d'inertie[cite: 30, 90].
+[cite_start]Pour déterminer les vitesses critiques, nous modélisons la raideur de l'arbre en fonction de la position **x** des volants d'inertie.
 
 ### Paramètres de l'arbre
 * **Matériau** : Acier avec un module de Young **E = 210 GPa**.
