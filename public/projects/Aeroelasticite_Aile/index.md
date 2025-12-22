@@ -1,7 +1,7 @@
 ---
 title: "Aéroélasticité : Étude Statique et Dynamique d'une Aile d'Avion"
 date: "2024-04-15"
-cover: "/projects/Aeroelasticite_Aile/cover_avion.png"
+cover: "/projects/Aeroelasticite_Aile/cover1.png"
 tags: ["Éléments Finis", "Aéroélasticité", "COMSOL", "Mécanique des Structures", "Fluides"]
 ---
 
@@ -27,7 +27,11 @@ Pour garantir la fiabilité des résultats, une attention particulière a été 
 ![conditions limites](/projects/Aeroelasticite_Aile/condition_limite.png)
 
 * **Chargement** : Application d'une force de portance compensant le poids de l'avion :
-$$F = \frac{m_{tow} \cdot g}{2}$$ appliquée sur l'intrados.
+
+$$F=\frac{m_{\text{tow}} \cdot g}{2}$$ 
+
+appliquée sur l'intrados.
+
 
 ![conditions limites](/projects/Aeroelasticite_Aile/intrados.png)
 
