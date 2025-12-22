@@ -40,7 +40,7 @@ Afin de valider les simulations, nous avons comparé plusieurs finesses de maill
 ## Résultats et Analyse Physique 📊
 
 ### Analyse Statique : Résistance de la Structure
-Les simulations ont montré que la contrainte maximale subie par l'aile ($16,9$ MPa) reste très largement inférieure à la limite d'élasticité de l'aluminium ($300$ MPa). 
+Les simulations ont montré que la contrainte maximale subie par l'aile ( $16,9$ MPa ) reste très largement inférieure à la limite d'élasticité de l'aluminium ($300$ MPa). 
 * **Déformation** : La flèche maximale en bout d'aile est de $8,35$ cm, ce qui reste négligeable face aux $15$ m de longueur de l'aile.
 
 ![conditions limites](/projects/Aeroelasticite_Aile/deformation.png)
