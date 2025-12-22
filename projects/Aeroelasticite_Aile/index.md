@@ -21,14 +21,13 @@ L'étude s'est articulée autour de trois axes principaux :
 Pour garantir la fiabilité des résultats, une attention particulière a été portée à la qualité du maillage et à la définition des conditions aux limites.
 
 ### 1. Configuration du Modèle
-* **Matériau** : Alliage d'aluminium ($E = 76$ GPa, $\nu = 0.33$, $\rho = 2780$ kg/m³).
+* **Matériau** : Alliage d'aluminium $E = 76$ GPa, $\nu = 0.33$, $\rho = 2780$ kg/m³.
 * **Conditions limites** : Encastrement parfait de l'aile au niveau du fuselage.
 
 ![conditions limites](/projects/Aeroelasticite_Aile/condition_limite.png)
 
 * **Chargement** : Application d'une force de portance compensant le poids de l'avion :
-$$F = \frac{m_{tow} \cdot g}{2}$$
-appliquée sur l'intrados.
+$$F = \frac{m_{tow} \cdot g}{2}$$ appliquée sur l'intrados.
 
 ![conditions limites](/projects/Aeroelasticite_Aile/intrados.png)
 
@@ -40,7 +39,7 @@ Afin de valider les simulations, nous avons comparé plusieurs finesses de maill
 ## Résultats et Analyse Physique 📊
 
 ### Analyse Statique : Résistance de la Structure
-Les simulations ont montré que la contrainte maximale subie par l'aile ( $16,9$ MPa ) reste très largement inférieure à la limite d'élasticité de l'aluminium ($300$ MPa). 
+Les simulations ont montré que la contrainte maximale subie par l'aile, $16,9$ MPa, reste très largement inférieure à la limite d'élasticité de l'aluminium, $300$ MPa. 
 * **Déformation** : La flèche maximale en bout d'aile est de $8,35$ cm, ce qui reste négligeable face aux $15$ m de longueur de l'aile.
 
 ![conditions limites](/projects/Aeroelasticite_Aile/deformation.png)
