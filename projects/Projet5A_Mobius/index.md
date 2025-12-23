@@ -1,13 +1,15 @@
 ---
 title: "Projet de 5ème Année : Analyse Vibratoire d'un Ruban de Möbius, Modélisation et Expérimentation"
 date: "2025-02-03"
-cover: "/projects/Projet5A_Mobius/mobius.png"
+cover: "/projects/Projet5A_Mobius/mode_1_mobius.gif"
 tags: ["Vibrations", "Modélisation", "Expérimentation", "ANSYS", "MATLAB", "COMSOL"]
 ---
 
 ## Contexte du Projet : Comprendre l'Impact de la Topologie 🔄
 
 Ce projet de fin d'année a été réalisé dans le cadre de ma 5ème année d'études. L'objectif principal était d'étudier l'**analyse vibratoire de structures à géométrie non conventionnelle**, en particulier le **ruban de Möbius**.
+
+![Montage expérimental de l'analyse vibratoire](/projects/Projet5A_Mobius/mobius.png)
 
 Le ruban de Möbius, caractérisé par son unique **vrille** et sa surface unique, présente un comportement dynamique (vibratoire) fondamentalement différent des structures planes classiques (poutres, anneaux). Le défi consistait à **comprendre l'impact de cette vrille** sur les fréquences propres et les modes de vibration de la structure.
 
