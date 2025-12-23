@@ -1,6 +1,6 @@
 ---
 title: "Projet Acoustique : Optimisation de l'Isolation d'une Porte de Navire"
-date: "2024-04-10"
+date: "2024-10-10"
 cover: "/projects/Isolation_Porte/cover.png"
 tags: ["Acoustique du Bâtiment", "Simulation", "Maine 3A", "Matériaux Poreux", "Isolation"]
 ---
