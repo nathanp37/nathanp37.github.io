@@ -59,6 +59,7 @@ Cette configuration simule un système à un seul degré de liberté.
 </figure>
 
 
+
 * **Vitesse théorique** : Entre **1794 RPM** et **1823 RPM**.
 * **Vitesse expérimentale** : Identifiée entre **1627 RPM** et **1707 RPM** par l'analyse des pics d'énergie.
 * **Écart relatif** : Les erreurs constatées varient de **4,85%** à **10,75%**.
