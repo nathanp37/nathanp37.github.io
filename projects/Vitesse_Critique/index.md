@@ -51,7 +51,7 @@ $$\omega_0 = \sqrt{\frac{k}{m}}$$
 
 L'étude s'est concentrée sur deux configurations principales pour identifier les modes de flexion.
 
-### 1. Volants au milieu de la tige ($x = L/2$)
+### 1. Volants au milieu de la tige $(x = L/2)$
 Cette configuration simule un système à un seul degré de liberté.
 * **Vitesse théorique** : Entre **1794 RPM** et **1823 RPM**.
 * **Vitesse expérimentale** : Identifiée entre **1627 RPM** et **1707 RPM** par l'analyse des pics d'énergie.
