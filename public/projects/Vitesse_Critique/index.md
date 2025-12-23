@@ -23,23 +23,26 @@ Le banc d'essai permet de tester différentes configurations de masses (volants 
 
 
 ![Schéma expérimental](/projects/Vitesse_Critique/schema_dispositif.png)
+
 *Figure 1 : Schéma du dispositif incluant le moteur, les volants d'inertie et la chaîne d'acquisition OROS.*
 
 ---
 
 ## Modélisation Théorique 📐
 
-[cite_start]Pour déterminer les vitesses critiques, nous modélisons la raideur de l'arbre en fonction de la position **x** des volants d'inertie.
+Pour déterminer les vitesses critiques, nous modélisons la raideur de l'arbre en fonction de la position **x** des volants d'inertie.
 
 ### Paramètres de l'arbre
 * **Matériau** : Acier avec un module de Young **E = 210 GPa**.
 * **Dimensions** : Diamètre **D = 10 mm** à **10,4 mm** et longueur **L** comprise entre **44,4 cm** et **46,2 cm**.
 
 ### Équations de Raideur et Fréquence
-La raideur $k(x)$ est déduite de la flèche de la poutre:
-$$k(x) = \frac{3\pi ED^4}{4L^3} \left( \frac{1}{3\frac{x}{L} - \frac{4x^3}{L^3}} \right)$$
+La raideur $k(x)$ est déduite de l'expression de la flèche de la poutre[cite: 31, 91, 92]:
 
-La vitesse critique théorique (en rad/s) est ensuite calculée par la relation:
+$$k(x) = \frac{3 \pi E D^4}{4 L^3} \left( \frac{1}{\frac{3x}{L} - \frac{4x^3}{L^3}} \right)$$
+
+La vitesse critique théorique $\omega_0$ (en rad/s) est ensuite calculée par la relation fondamentale:
+
 $$\omega_0 = \sqrt{\frac{k}{m}}$$
 
 ---
