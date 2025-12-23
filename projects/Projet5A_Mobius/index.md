@@ -10,7 +10,7 @@ tags: ["Vibrations", "Modélisation", "Expérimentation", "ANSYS", "MATLAB", "CO
 Ce projet de fin d'année a été réalisé dans le cadre de ma 5ème année d'études. L'objectif principal était d'étudier l'**analyse vibratoire de structures à géométrie non conventionnelle**, en particulier le **ruban de Möbius**.
 
 <figure style="text-align: center;">
-  <img src="/projects/Projet5A_Mobius/mobius.png" alt="mobuis" style="width: 70%;">
+  <img src="/projects/Projet5A_Mobius/image_8.png" alt="mobuis" style="width: 80%;">
 </figure>
 
 Le ruban de Möbius, caractérisé par son unique **vrille** et sa surface unique, présente un comportement dynamique (vibratoire) fondamentalement différent des structures planes classiques (poutres, anneaux). Le défi consistait à **comprendre l'impact de cette vrille** sur les fréquences propres et les modes de vibration de la structure.
