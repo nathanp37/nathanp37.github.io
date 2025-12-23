@@ -20,11 +20,10 @@ Le banc d'essai permet de tester différentes configurations de masses (volants 
 * **Acquisition** : Les signaux sont collectés via un module **OROS OR35** relié à un ordinateur pour l'analyse spectrale.
 * **Contrôle de vitesse** : Deux capteurs tachymétriques permettent d'asservir le moteur et de fournir la vitesse de rotation précise au système.
 
-
-
-![Schéma expérimental](/projects/Vitesse_Critique/schema_dispositif.png)
-
-*Figure 1 : Schéma du dispositif incluant le moteur, les volants d'inertie et la chaîne d'acquisition OROS.*
+<figure style="text-align: center;">
+  <img src="/projects/Vitesse_Critique/schema_dispositif.png" alt="Analyse d'ordre" style="width: 80%;">
+  <figcaption>Schéma du dispositif incluant le moteur, les volants d'inertie et la chaîne d'acquisition OROS.</figcaption>
+</figure>
 
 ---
 
@@ -37,7 +36,7 @@ Pour déterminer les vitesses critiques, nous modélisons la raideur de l'arbre 
 * **Dimensions** : Diamètre **D = 10 mm** à **10,4 mm** et longueur **L** comprise entre **44,4 cm** et **46,2 cm**.
 
 ### Équations de Raideur et Fréquence
-La raideur $k(x)$ est déduite de l'expression de la flèche de la poutre[cite: 31, 91, 92]:
+La raideur $k(x)$ est déduite de l'expression de la flèche de la poutre:
 
 $$k(x) = \frac{3 \pi E D^4}{4 L^3} \left( \frac{1}{\frac{3x}{L} - \frac{4x^3}{L^3}} \right)$$
 
@@ -53,20 +52,38 @@ L'étude s'est concentrée sur deux configurations principales pour identifier l
 
 ### 1. Volants au milieu de la tige $(x = L/2)$
 Cette configuration simule un système à un seul degré de liberté.
+
+<figure style="text-align: center;">
+  <img src="/projects/Vitesse_Critique/1er_degre.png" alt="degre" style="width: 80%;">
+  <figcaption>Système à 1 degré de liberté schématisé.</figcaption>
+</figure>
+
+
 * **Vitesse théorique** : Entre **1794 RPM** et **1823 RPM**.
 * **Vitesse expérimentale** : Identifiée entre **1627 RPM** et **1707 RPM** par l'analyse des pics d'énergie.
 * **Écart relatif** : Les erreurs constatées varient de **4,85%** à **10,75%**.
 
+<figure style="text-align: center;">
+  <img src="/projects/Vitesse_Critique/spectrogramme.png" alt="spectogramme" style="width: 80%;">
+  <figcaption>Spectrogramme montrant la zone de résonance rouge à la vitesse critique.</figcaption>
+</figure>
 
-
-![Analyse d'ordre](/projects/Vitesse_Critique/spectrogramme.png)
-*Figure 2 : Spectrogramme montrant la zone de résonance rouge à la vitesse critique.*
-
-### 2. Volants au quart et aux trois-quarts $(L/4 et 3L/4)$
+### 2. Volants au quart et aux trois-quarts $(L/4)$ et $(3L/4)$
 Ici, le système présente deux degrés de liberté.
+
+<figure style="text-align: center;">
+  <img src="/projects/Vitesse_Critique/2eme_degre.png" alt="degres" style="width: 80%;">
+  <figcaption>Système à 2 degrés de liberté schématisé.</figcaption>
+</figure>
+
 * **Première vitesse critique** : Mesurée entre **1969 RPM** et **2021 RPM**.
 * **Comparaison** : La valeur théorique est calculée à environ **2164 RPM** à **2170 RPM**.
 * **Note** : La seconde vitesse critique théorique (**~5300 RPM**) n'a pas été testée pour garantir la sécurité du matériel.
+
+<figure style="text-align: center;">
+  <img src="/projects/Vitesse_Critique/spectrogramme.png" alt="spectogramme2" style="width: 80%;">
+  <figcaption>Spectrogramme montrant la zone de résonance rouge à la vitesse critique.</figcaption>
+</figure>
 
 ---
 
