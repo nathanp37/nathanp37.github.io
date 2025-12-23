@@ -58,14 +58,12 @@ Cette configuration simule un système à un seul degré de liberté.
   <figcaption>Système à 1 degré de liberté schématisé.</figcaption>
 </figure>
 
-
-
 * **Vitesse théorique** : Entre **1794 RPM** et **1823 RPM**.
 * **Vitesse expérimentale** : Identifiée entre **1627 RPM** et **1707 RPM** par l'analyse des pics d'énergie.
 * **Écart relatif** : Les erreurs constatées varient de **4,85%** à **10,75%**.
 
 <figure style="text-align: center;">
-  <img src="/projects/Vitesse_Critique/spectrogramme.png" alt="spectogramme" style="width: 80%;">
+  <img src="/projects/Vitesse_Critique/spectrogramme.png" alt="spectogramme" style="width: 60%;">
   <figcaption>Spectrogramme montrant la zone de résonance rouge à la vitesse critique.</figcaption>
 </figure>
 
@@ -82,7 +80,7 @@ Ici, le système présente deux degrés de liberté.
 * **Note** : La seconde vitesse critique théorique (**~5300 RPM**) n'a pas été testée pour garantir la sécurité du matériel.
 
 <figure style="text-align: center;">
-  <img src="/projects/Vitesse_Critique/spectrogramme.png" alt="spectogramme2" style="width: 80%;">
+  <img src="/projects/Vitesse_Critique/spectrogramme.png" alt="spectogramme2" style="width: 60%;">
   <figcaption>Spectrogramme montrant la zone de résonance rouge à la vitesse critique.</figcaption>
 </figure>
 
