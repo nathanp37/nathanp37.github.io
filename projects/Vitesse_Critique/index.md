@@ -62,7 +62,7 @@ Cette configuration simule un système à un seul degré de liberté.
 ![Analyse d'ordre](/projects/Vitesse_Critique/spectrogramme.png)
 *Figure 2 : Spectrogramme montrant la zone de résonance rouge à la vitesse critique.*
 
-### 2. Volants au quart et aux trois-quarts ($L/4$ et $3L/4$)
+### 2. Volants au quart et aux trois-quarts $(L/4 et 3L/4)$
 Ici, le système présente deux degrés de liberté.
 * **Première vitesse critique** : Mesurée entre **1969 RPM** et **2021 RPM**.
 * **Comparaison** : La valeur théorique est calculée à environ **2164 RPM** à **2170 RPM**.
