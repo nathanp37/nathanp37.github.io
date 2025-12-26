@@ -33,7 +33,7 @@ J'ai conçu cette carte comme un **shield** venant s'enficher sur les headers de
 * **Interfaçage** : Elle assure le lien entre le "cerveau" (Raspberry Pi / Nucleo) et les périphériques : pont en H pour les moteurs, roues codeuses pour l'odométrie et Jack de départ.
 
 <figure style="text-align: center;">
-  <img src="/projects/Projet4A_Robotique/schema_connect.png" alt="Vue du routage de la carte connectique photo" style="width: 80%;">
+  <img src="/projects/Projet4A_Robotique/schema_connect.png" alt="Vue du routage de la carte connectique photo" style="width: 90%;">
 </figure>
 
 ### 2. La Carte de Puissance 🔋
@@ -44,7 +44,7 @@ Dédiée à la gestion de l'énergie, cette carte convertit la tension batterie 
 * **Sécurité** : Ajout d'un fusible automobile pour protéger l'électronique contre les inversions de polarité batterie.
 
 <figure style="text-align: center;">
-  <img src="/projects/Projet4A_Robotique/schema_puissance.png" alt="Vue de l'étage de puissance" style="width: 80%;">
+  <img src="/projects/Projet4A_Robotique/schema_puissance.png" alt="Vue de l'étage de puissance" style="width: 90%;">
 </figure>
 
 ---
@@ -65,7 +65,7 @@ L'enjeu principal était la **miniaturisation** (volume < cube de 60 mm) et la f
 * **Carte PCB** : Une carte électronique miniaturisée a été réalisée par l'équipe PAMI. Elle intègre un régulateur de tension 5V et les différents connecteurs pour le driver **L298N**, le SR04, le Jack de départ et le switch de sélection d'équipe, tout en minimisant la taille du PAMI.
 
 <figure style="text-align: center;">
-  <img src="/projects/Projet4A_Robotique/schema_pami.png" alt="Vue du routage de la carte connectique pami" style="width: 80%;">
+  <img src="/projects/Projet4A_Robotique/schema_pami.png" alt="Vue du routage de la carte connectique pami" style="width: 90%;">
 </figure>
 
 ### Code PAMI : Asservissement en Vitesse

@@ -40,7 +40,7 @@ La phase expérimentale a permis d'obtenir les données vibratoires réelles.
 * **Post-traitement** : L'extraction des **Fonctions de Réponse en Fréquence (FRF)** et des **modes propres** a été effectuée à l'aide de la méthode **PolyMAX** (logiciel Testlab).
 
 <figure style="text-align: center;">
-  <img src="/projects/Projet5A_Mobius/experimental.png" alt="cMontage expérimental de l'analyse vibratoire" style="width: 80%;">
+  <img src="/projects/Projet5A_Mobius/experimental.png" alt="cMontage expérimental de l'analyse vibratoire" style="width: 90%;">
 </figure>
 
 ### 3. Modélisation Numérique (COMSOL)
@@ -65,7 +65,7 @@ L'ajout d'une torsion a eu un impact non linéaire sur les fréquences de vibrat
 * Nous avons établi une dépendance **quadratique** entre la fréquence et l'angle de torsion.
 
 <figure style="text-align: center;">
-  <img src="/projects/Projet5A_Mobius/influencevrille.png" alt="Influence de l'angle de vrille sur les fréquences propres d'une poutre" style="width: 80%;">
+  <img src="/projects/Projet5A_Mobius/influencevrille.png" alt="Influence de l'angle de vrille sur les fréquences propres d'une poutre" style="width: 90%;">
 </figure>
 
 ### 2. Comportement du Ruban de Möbius
@@ -76,7 +76,7 @@ La comparaison entre un anneau classique et un ruban de Möbius a révélé une 
 * **Changement Topologique** : La topologie du Möbius modifie la **propagation de l'onde de flexion**, nécessitant deux tours complets de la structure pour retrouver la même polarisation de l'onde.
 
 <figure style="text-align: center;">
-  <img src="projects/Projet5A_Mobius/FRFAnneauMobius.png" alt="Comparaison des FRF entre l'Anneau et le Ruban de Möbius" style="width: 80%;">
+  <img src="projects/Projet5A_Mobius/FRFAnneauMobius.png" alt="Comparaison des FRF entre l'Anneau et le Ruban de Möbius" style="width: 90%;">
 </figure>
 
 ---
