@@ -29,7 +29,9 @@ Une phase de **recalage de modèle** a été nécessaire pour déterminer les pa
 * **Module d'Young (E')** : 0.4 MPa
 * **Facteur de perte (η)** : 0.12
 
-![Comparaison Modèle vs Expérience](/projects/Isolation_Porte/recalage_modele.png)
+<figure style="text-align: center;">
+  <img src="/projects/Isolation_Porte/recalage_modele.png" alt="Comparaison Modèle vs Expérience" style="width: 80%;">
+</figure>
 
 ---
 
@@ -42,7 +44,9 @@ Pour briser ce pont phonique sans changer l'épaisseur totale (40mm), nous avons
 * Configuration initiale : 40mm de laine de roche.
 * Configuration optimisée : 26mm Laine + **4mm Air** + 10mm Laine.
 
-![Schéma du panneau optimisé avec lame d'air](/projects/Isolation_Porte/schema_couches.png)
+<figure style="text-align: center;">
+  <img src="/projects/Isolation_Porte/schema_couches.png" alt="Schéma du panneau optimisé avec lame d'air" style="width: 80%;">
+</figure>
 
 ### Résultats
 La simulation de cette nouvelle configuration a montré un gain significatif. Nous avons également étudié l'influence de la symétrie des couches. La configuration asymétrique (26mm/10mm) s'est révélée plus performante que la symétrique (18mm/18mm).
@@ -50,7 +54,9 @@ La simulation de cette nouvelle configuration a montré un gain significatif. No
 * **Gain obtenu** : Environ **+5 dB** sur la zone critique des basses fréquences.
 * **Respect des contraintes** : Aucune masse ajoutée, épaisseur inchangée.
 
-![Gain d'isolation acoustique après optimisation](/projects/Isolation_Porte/resultats_comparaison.png)
+<figure style="text-align: center;">
+  <img src="/projects/Isolation_Porte/resultats_comparaison.png" alt="CGain d'isolation acoustique après optimisation" style="width: 80%;">
+</figure>
 
 ---
 
