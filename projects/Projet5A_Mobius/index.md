@@ -26,7 +26,10 @@ La méthodologie s'est articulée autour de trois étapes principales pour assur
 ### 1. Conception et Fabrication
 Nous avons conçu les structures (poutre simple, poutre vrillée, anneau, ruban de Möbius) sous **SolidWorks** et les avons fabriquées par **impression 3D en résine** (Formlabs). Ce choix a permis de garantir l'**homogénéité** des propriétés mécaniques pour les tests.
 
-![Montage expérimental de l'analyse vibratoire](/projects/Projet5A_Mobius/modele_3D.png)
+<figure style="text-align: center;">
+  <img src="/projects/Projet5A_Mobius/modele_3D.png" alt="modele 3D" style="width: 80%;">
+</figure>
+
 
 ### 2. Analyse Expérimentale (Identification Modale)
 
@@ -36,7 +39,9 @@ La phase expérimentale a permis d'obtenir les données vibratoires réelles.
 * **Acquisition** : L'excitation a été réalisée à l'aide d'un **marteau instrumenté**, et les mesures ont été prises par accéléromètre.
 * **Post-traitement** : L'extraction des **Fonctions de Réponse en Fréquence (FRF)** et des **modes propres** a été effectuée à l'aide de la méthode **PolyMAX** (logiciel Testlab).
 
-![Montage expérimental de l'analyse vibratoire](/projects/Projet5A_Mobius/experimental.png)
+<figure style="text-align: center;">
+  <img src="/projects/Projet5A_Mobius/experimental.png" alt="cMontage expérimental de l'analyse vibratoire" style="width: 80%;">
+</figure>
 
 ### 3. Modélisation Numérique (COMSOL)
 
@@ -59,7 +64,9 @@ L'ajout d'une torsion a eu un impact non linéaire sur les fréquences de vibrat
 * Les **modes supérieurs** connaissent une **diminution** notable des fréquences propres.
 * Nous avons établi une dépendance **quadratique** entre la fréquence et l'angle de torsion.
 
-![Influence de l'angle de vrille sur les fréquences propres d'une poutre](/projects/Projet5A_Mobius/influencevrille.png)
+<figure style="text-align: center;">
+  <img src="/projects/Projet5A_Mobius/influencevrille.png" alt="Influence de l'angle de vrille sur les fréquences propres d'une poutre" style="width: 80%;">
+</figure>
 
 ### 2. Comportement du Ruban de Möbius
 
@@ -68,7 +75,9 @@ La comparaison entre un anneau classique et un ruban de Möbius a révélé une 
 * Le ruban de Möbius montre une **baisse significative des modes supérieurs** par rapport à l'anneau.
 * **Changement Topologique** : La topologie du Möbius modifie la **propagation de l'onde de flexion**, nécessitant deux tours complets de la structure pour retrouver la même polarisation de l'onde.
 
-![Comparaison des FRF entre l'Anneau et le Ruban de Möbius](/projects/Projet5A_Mobius/FRFAnneauMobius.png)
+<figure style="text-align: center;">
+  <img src="projects/Projet5A_Mobius/FRFAnneauMobius.png" alt="Comparaison des FRF entre l'Anneau et le Ruban de Möbius" style="width: 80%;">
+</figure>
 
 ---
 

@@ -29,7 +29,9 @@ La détermination des modes repose sur la mesure de ces FRF sur un maillage de p
 
 L'architecture générale du système de mesure typique est donnée sur la figure ci-dessous.
 
-![Chaîne de mesure pour l'analyse modale](/projects/Analyse_Modale/schema_experimental.png)
+<figure style="text-align: center;">
+  <img src="/projects/Analyse_Modale/schema_experimental.png" alt="Chaîne de mesure pour l'analyse modale" style="width: 80%;">
+</figure>
 
 Deux stratégies d'excitation sont possibles pour collecter les FRF :
 
@@ -56,7 +58,9 @@ L'analyse modale complexe a révélé l'existence de **modes doubles**, typiques
 
 Nous avons observé une **alternance d'énergie** entre la partie supérieure (plus petite) et la partie inférieure (plus grosse) de la cloche en fonction du mode double.
 
-![Déformée modale à 786 Hz](/projects/Analyse_Modale/mode_double.png)
+<figure style="text-align: center;">
+  <img src="/projects/Analyse_Modale/mode_double.png" alt="Déformée modale à 786 Hz" style="width: 80%;">
+</figure>
 
 ### 2. Analyse d'un Panneau (Marteau d'Impact)
 
@@ -65,13 +69,17 @@ L'analyse a été réalisée en fixant l'accéléromètre au dos et en tapant à
 * Mode 2 : **331.642 Hz** (Amortissement 0.58%)
 * Mode 3 : **468.888 Hz** (Amortissement 1.83%)
 
-![Déformée modale à 786 Hz](/projects/Analyse_Modale/panneau.png)
+<figure style="text-align: center;">
+  <img src="/projects/Analyse_Modale/panneau.png" alt="3 modes" style="width: 80%;">
+</figure>
 
 ### 3. Analyse d'une Poutre Revêtue (Méthode Oberst)
 
 La **méthode Oberst** est utilisée pour mesurer les propriétés mécaniques de matériaux amortissants fixés sur une poutre. 
 
-![Déformée modale à 786 Hz](/projects/Analyse_Modale/oberst.png)
+<figure style="text-align: center;">
+  <img src="/projects/Analyse_Modale/oberst.png" alt="Oberst" style="width: 80%;">
+</figure>
 
 L'étude comparative, avec et sans scotch (revêtement), a montré :
 
@@ -82,7 +90,9 @@ L'étude comparative, avec et sans scotch (revêtement), a montré :
 
 L'excitation a été assurée par un pot vibrant, avec 10 accéléromètres déplacés sur la structure. L'extraction des modes a été réalisée avec le logiciel **MODAN/OROS**.
 
-![Table d'harmonie de piano](/projects/Analyse_Modale/installation_experience_teble_harmonie_piano.png)
+<figure style="text-align: center;">
+  <img src="/projects/Analyse_Modale/installation_experience_teble_harmonie_piano.png" alt="Table d'harmonie de piano" style="width: 80%;">
+</figure>
 
 * **Résultats** : 14 modes ont été comptabilisés dans la plage 15-200 Hz.
 * **Validation** : La fonction de transfert simulée (basée sur les modes identifiés) est proche de la FRF réelle entre 50 et 200 Hz, mais s'en éloigne en plus haute fréquence.
@@ -91,17 +101,23 @@ L'excitation a été assurée par un pot vibrant, avec 10 accéléromètres dép
 
 Cette analyse a utilisé une technique sans contact : excitation par pot vibrant (fixé sur le manche) et mesure de la réponse par **vibromètre laser** (déplacé sur le maillage).
 
-![Déformée modale à 786 Hz](/projects/Analyse_Modale/raquette.png)
+<figure style="text-align: center;">
+  <img src="/projects/Analyse_Modale/raquette.png" alt="Raquette" style="width: 80%;">
+</figure>
 
 Deux types de modes ont été distingués :
 
 * **Modes de cordage** : Mouvement uniquement du cordage.
 
-![Déformée modale à 786 Hz](/projects/Analyse_Modale/mode_cordage.png)
+<figure style="text-align: center;">
+  <img src="/projects/Analyse_Modale/mode_cordage.png" alt="cordage" style="width: 80%;">
+</figure>
 
 * **Modes de cadre** : Mouvement du cadre qui entraîne les cordages.
 
-![Déformée modale à 786 Hz](/projects/Analyse_Modale/mode_structure.png)
+<figure style="text-align: center;">
+  <img src="/projects/Analyse_Modale/mode_structure.png" alt="cadre" style="width: 80%;">
+</figure>
 
 Pour la réduction des vibrations :
 * Les **amortisseurs** en caoutchouc/silicone sont utilisés pour les modes de cordage.

@@ -26,12 +26,16 @@ Nous avons cherché à distinguer les **modes de structure** (vibration de la ta
 * **Masse additionnelle** : Ajout de pâte (200g) sur la table pour décaler les modes de structure.
 * **Évent avec col** : Modification de la géométrie de l'évent pour décaler la fréquence de Helmholtz.
 
-![Comparaison des FRF selon les configurations](/projects/Vibroacoustique/comparaison_frf.png)
+<figure style="text-align: center;">
+  <img src="/projects/Vibroacoustique/comparaison_frf.png" alt="Comparaison des FRF selon les configurations" style="width: 80%;">
+</figure>
 
 ### 2. Le Tube en U
 L'objectif était de comprendre comment une pression acoustique interne peut générer des vibrations mécaniques importantes sur une tuyauterie industrielle. 
 
-![Déformée modale du tube en U](/projects/Vibroacoustique/tube.png)
+<figure style="text-align: center;">
+  <img src="/projects/Vibroacoustique/tube.png" alt="schema tube" style="width: 80%;">
+</figure>
 
 Nous avons étudié un **mode de balancement** du tube excité par une onde plane acoustique.
 
@@ -51,7 +55,10 @@ Le modèle numérique développé a permis de recaler les paramètres physiques 
 Pour la conduite, nous avons mis en évidence un mode de balancement à **38.5 Hz**.
 L'analyse théorique et expérimentale a montré que les vibrations sont maximales lorsque la fréquence acoustique génère un **nœud de pression** situé à mi-distance des coudes, créant des forces de pression opposées qui excitent la structure.
 
-![Déformée modale du tube en U](/projects/Vibroacoustique/deformee_tube.png)
+
+<figure style="text-align: center;">
+  <img src="/projects/Vibroacoustique/deformee_tube.png" alt="Déformée modale du tube en U" style="width: 80%;">
+</figure>
 
 ---
 

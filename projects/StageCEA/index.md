@@ -29,7 +29,10 @@ Sa géométrie particulière permet d'isoler et d'observer le comportement méca
 2.  **La cornière**.
 3.  **La liaison raidisseur-cornière**.
 
-![Essai de fermeture localisé](/projects/StageCEA/schema_eprouvette.png)
+
+<figure style="text-align: center;">
+  <img src="/projects/StageCEA/schema_eprouvette.png" alt="geometrie" style="width: 80%;">
+</figure>
 
 ### Déroulement des essais mécaniques
 
@@ -43,9 +46,16 @@ Les essais ont été réalisés sur une machine électromécanique **Zwick** éq
 J'ai développé une méthodologie de localisation des sources d'EA pour identifier les zones critiques d'endommagement sur l'éprouvette à cornière raidie à l'aide de 5 capteurs EA situés sur l'éprouvette.
 
 * **En essai d'ouverture :** Les premières sources acoustiques sont apparues dans le **raidisseur**.
-![Essai d'ouverture localisé](/projects/StageCEA/ouverture_essai.JPG)
+
+<figure style="text-align: center;">
+  <img src="/projects/StageCEA/ouverture_essai.JPG" alt="Essai d'ouverture localise" style="width: 80%;">
+</figure>
+
 * **En essai de fermeture :** Les dommages étaient principalement localisés dans la **liaison raidisseur-cornière**.
-![Essai de fermeture localisé](/projects/StageCEA/fermeture_essai.JPG)
+
+<figure style="text-align: center;">
+  <img src="/projects/StageCEA/fermeture_essai.JPG" alt="Essai de fermeture localise" style="width: 80%;">
+</figure>
 
 Ces localisations étaient **cohérentes avec la Corrélation d'Images Numériques (CIN)** et ont démontré que l'EA permet de détecter les fissures **avant** qu'elles ne soient visibles par CIN.
 
@@ -62,7 +72,10 @@ J'ai mis en place une **classification non supervisée** par algorithmes génét
 
 
 **Représentation temps-fréquence de signaux caractéristiques des classes obtenues**
-![Essai de fermeture localisé](/projects/StageCEA/Classe.PNG)
+
+<figure style="text-align: center;">
+  <img src="/projects/StageCEA/Classe.PNG" alt="TF" style="width: 80%;">
+</figure>
 
 ## Conclusion et Compétences Développées 🛠️
 

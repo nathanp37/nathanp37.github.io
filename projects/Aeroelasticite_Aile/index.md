@@ -24,16 +24,17 @@ Pour garantir la fiabilité des résultats, une attention particulière a été 
 * **Matériau** : Alliage d'aluminium $E = 76$ GPa, $\nu = 0.33$, $\rho = 2780$ kg/m³.
 * **Conditions limites** : Encastrement parfait de l'aile au niveau du fuselage.
 
-![conditions limites](/projects/Aeroelasticite_Aile/condition_limite.png)
+<figure style="text-align: center;">
+  <img src="/projects/Aeroelasticite_Aile/condition_limite.png" alt="conditions limites" style="width: 80%;">
+</figure>
 
 * **Chargement** : Application d'une force de portance compensant le poids de l'avion appliquée sur l'intrados :
 
 $$F=\frac{m_{\text{tow}} \cdot g}{2}$$ 
 
-
-
-
-![conditions limites](/projects/Aeroelasticite_Aile/intrados.png)
+<figure style="text-align: center;">
+  <img src="/projects/Aeroelasticite_Aile/intrados.png" alt="intrados" style="width: 80%;">
+</figure>
 
 ### 2. Convergence du Maillage
 Afin de valider les simulations, nous avons comparé plusieurs finesses de maillage. La convergence des résultats (contraintes de Von Mises et déplacements) a permis de confirmer la robustesse du modèle numérique.
@@ -46,7 +47,9 @@ Afin de valider les simulations, nous avons comparé plusieurs finesses de maill
 Les simulations ont montré que la contrainte maximale subie par l'aile, $16,9$ MPa, reste très largement inférieure à la limite d'élasticité de l'aluminium, $300$ MPa. 
 * **Déformation** : La flèche maximale en bout d'aile est de $8,35$ cm, ce qui reste négligeable face aux $15$ m de longueur de l'aile.
 
-![conditions limites](/projects/Aeroelasticite_Aile/deformation.png)
+<figure style="text-align: center;">
+  <img src="/projects/Aeroelasticite_Aile/deformation.png" alt="Deformation" style="width: 80%;">
+</figure>
 
 * **Observation** : L'extrados travaille en compression tandis que l'intrados subit une traction.
 
@@ -55,13 +58,17 @@ L'étude fréquentielle a permis d'extraire les 10 premiers modes propres :
 * **Mode 1 (~$3,17$ Hz)** : Premier mode de flexion sur l'axe vertical.
 * **Mode 5 (~$30,4$ Hz)** : Premier mode de torsion, critique pour la stabilité aéroélastique car il modifie l'angle d'attaque $\alpha$ en temps réel.
 
-![conditions limites](/projects/Aeroelasticite_Aile/mode_1_5.png)
+<figure style="text-align: center;">
+  <img src="/projects/Aeroelasticite_Aile/mode_1_5.png" alt="mode1_5" style="width: 80%;">
+</figure>
 
 ### Simulation Fluide (CFD) et Angle d'Attaque
 Une étude paramétrique en 2D sur un profil **NACA 4422** a mis en évidence l'évolution de la portance :
 * Plus l'angle d'attaque $\alpha$ augmente, plus la zone de surpression à l'intrados s'élargit, augmentant ainsi la portance.
 
-![conditions limites](/projects/Aeroelasticite_Aile/vitesse_pression.png)
+<figure style="text-align: center;">
+  <img src="/projects/Aeroelasticite_Aile/vitesse_pression.png" alt="angle attaque" style="width: 80%;">
+</figure>
 
 * **Phénomène de Phugoïde** : Les oscillations couplées entre flexion et variations de vitesse ont été identifiées comme un point de vigilance pour le pilotage.
 

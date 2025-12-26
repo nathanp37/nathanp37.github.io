@@ -38,7 +38,9 @@ L'audit a révélé que l'ENSIM a émis un total de **625 tonnes de CO2 équival
 ### 1. Répartition Globale par Postes
 L'analyse détaillée des trois scopes montre que l'alimentation (via le Restaurant Universitaire) et les déplacements sont les deux postes les plus émetteurs.
 
-![Répartition détaillée des émissions de GES par poste](/projects/Bilan_Carbone/Bilan_des_3_scopes.png)
+<figure style="text-align: center;">
+  <img src="/projects/Bilan_Carbone/Bilan_des_3_scopes.png" alt="Répartition détaillée des émissions de GES par poste" style="width: 80%;">
+</figure>
 
 On observe sur ce graphique la prépondérance des émissions indirectes :
 * **Production alimentaire RU** : 17,3%
@@ -61,7 +63,9 @@ Au-delà des chiffres, une partie cruciale de ma mission de chef de projet étai
 
 Elle résume les ordres de grandeur clés (ex: un mail avec pièce jointe = 35g de CO2) et met en perspective notre bilan global (équivalent à 358 allers-retours Paris-New York).
 
-![Affiche de sensibilisation réalisée pour l'ENSIM](/projects/Bilan_Carbone/Affiche_de_sensibilisation.png)
+<figure style="text-align: center;">
+  <img src="/projects/Bilan_Carbone/Affiche_de_sensibilisation.png" alt="Affiche de sensibilisation réalisée pour l'ENSIM" style="width: 80%;">
+</figure>
 
 ## Conclusion et Plan d'Action
 
