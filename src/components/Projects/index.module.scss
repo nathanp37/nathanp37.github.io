@@ -237,7 +237,6 @@
   color: vars.$tertiaryColor;
   font-size: 1rem;
 
-  // Styles pour les éléments HTML générés par le markdown
   h1, h2, h3, h4, h5, h6 {
     color: vars.$tertiaryColor;
     margin-top: 1.5rem;
@@ -297,7 +296,7 @@
     color: #666;
   }
 
-  // MODIFIÉ : Style pour les images dans le contenu
+  // Styles pour les images
   img {
     max-width: 100%;
     height: auto;
@@ -305,7 +304,7 @@
     margin: 1rem 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     
-    // Ajout pour indiquer que c'est cliquable
+    // Zoom cursor
     cursor: zoom-in;
     transition: transform 0.2s ease;
 
@@ -321,7 +320,7 @@
     width: auto;   
     margin: 0 0.2em 0.1em 0; 
     box-shadow: none; 
-    cursor: default; // Pas de zoom pour les icônes
+    cursor: default;
     &:hover { transform: none; }
   }
 
@@ -341,7 +340,7 @@
   }
 }
 
-// Animations améliorées
+// Animations
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -364,7 +363,7 @@
   }
 }
 
-// Responsive design amélioré
+// Responsive design
 @media (max-width: 1200px) {
   .container { padding: 3rem 0; }
   .title { font-size: 2.5rem; margin-bottom: 2.5rem; }
@@ -440,7 +439,7 @@
   }
 }
 
-// NOUVEAU : Styles pour la Lightbox (Zoom)
+// Styles pour la Lightbox (Zoom)
 .lightbox {
   position: fixed;
   top: 0;
@@ -493,9 +492,44 @@
   }
 }
 
+// NOUVEAU : Bouton de téléchargement
+.downloadButton {
+  position: absolute;
+  bottom: -50px; // En dessous de l'image
+  right: 0;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: vars.$primaryColor;
+    color: vars.$primaryColor;
+    transform: translateY(-2px);
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .closeLightbox {
     top: -40px;
+    right: 0;
+  }
+  
+  // Sur mobile, on remonte un peu le bouton télécharger
+  .downloadButton {
+    bottom: -45px;
     right: 0;
   }
 }

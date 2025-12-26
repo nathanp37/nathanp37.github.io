@@ -9,7 +9,7 @@ const Projects = () => {
     const [isModalClosing, setIsModalClosing] = useState(false);
     const [loading, setLoading] = useState(true);
     
-    // NOUVEAU : État pour gérer l'image actuellement zoomée
+    // État pour gérer l'image actuellement zoomée
     const [zoomedImage, setZoomedImage] = useState(null);
 
     useEffect(() => {
@@ -55,11 +55,11 @@ const Projects = () => {
         }, 300);
     };
 
-    // NOUVEAU : Fonction pour gérer le clic sur les images du contenu
+    // Fonction pour gérer le clic sur les images du contenu
     const handleContentClick = (e) => {
         // Si l'élément cliqué est une image
         if (e.target.tagName === 'IMG') {
-            // On vérifie que ce n'est pas une petite icône (optionnel)
+            // On vérifie que ce n'est pas une petite icône
             if (!e.target.src.includes('#icon')) {
                 e.preventDefault();
                 setZoomedImage(e.target.src);
@@ -122,7 +122,6 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className={styles.modalBody}>
-                                {/* NOUVEAU : Ajout de onClick={handleContentClick} */}
                                 <div
                                     className={styles.markdownContent}
                                     dangerouslySetInnerHTML={{ __html: selectedProject.content }}
@@ -134,12 +133,36 @@ const Projects = () => {
                 </div>
             )}
 
-            {/* NOUVEAU : Le composant Lightbox qui s'affiche par-dessus tout */}
+            {/* Lightbox avec bouton de téléchargement */}
             {zoomedImage && (
                 <div className={styles.lightbox} onClick={() => setZoomedImage(null)}>
                     <div className={styles.lightboxContent}>
                         <img src={zoomedImage} alt="Zoom" onClick={(e) => e.stopPropagation()} />
-                        <button className={styles.closeLightbox} onClick={() => setZoomedImage(null)}>×</button>
+                        
+                        <button 
+                            className={styles.closeLightbox} 
+                            onClick={() => setZoomedImage(null)}
+                            title="Fermer"
+                        >
+                            ×
+                        </button>
+
+                        {/* NOUVEAU : Bouton de téléchargement */}
+                        <a 
+                            href={zoomedImage} 
+                            download
+                            className={styles.downloadButton}
+                            onClick={(e) => e.stopPropagation()}
+                            title="Télécharger l'image"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             )}
