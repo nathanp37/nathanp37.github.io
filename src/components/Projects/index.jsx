@@ -8,6 +8,9 @@ const Projects = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isModalClosing, setIsModalClosing] = useState(false);
     const [loading, setLoading] = useState(true);
+    
+    // NOUVEAU : État pour gérer l'image actuellement zoomée
+    const [zoomedImage, setZoomedImage] = useState(null);
 
     useEffect(() => {
         const loadProjects = async () => {
@@ -48,7 +51,20 @@ const Projects = () => {
             setIsModalOpen(false);
             setSelectedProject(null);
             setIsModalClosing(false);
+            setZoomedImage(null); // Ferme le zoom si on ferme la modale
         }, 300);
+    };
+
+    // NOUVEAU : Fonction pour gérer le clic sur les images du contenu
+    const handleContentClick = (e) => {
+        // Si l'élément cliqué est une image
+        if (e.target.tagName === 'IMG') {
+            // On vérifie que ce n'est pas une petite icône (optionnel)
+            if (!e.target.src.includes('#icon')) {
+                e.preventDefault();
+                setZoomedImage(e.target.src);
+            }
+        }
     };
 
     if (loading) {
@@ -106,12 +122,24 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className={styles.modalBody}>
+                                {/* NOUVEAU : Ajout de onClick={handleContentClick} */}
                                 <div
                                     className={styles.markdownContent}
                                     dangerouslySetInnerHTML={{ __html: selectedProject.content }}
+                                    onClick={handleContentClick}
                                 />
                             </div>
                         </div>
+                    </div>
+                </div>
+            )}
+
+            {/* NOUVEAU : Le composant Lightbox qui s'affiche par-dessus tout */}
+            {zoomedImage && (
+                <div className={styles.lightbox} onClick={() => setZoomedImage(null)}>
+                    <div className={styles.lightboxContent}>
+                        <img src={zoomedImage} alt="Zoom" onClick={(e) => e.stopPropagation()} />
+                        <button className={styles.closeLightbox} onClick={() => setZoomedImage(null)}>×</button>
                     </div>
                 </div>
             )}
