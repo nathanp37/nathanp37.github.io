@@ -566,6 +566,9 @@
             border-radius: 4px;
             outline: none;
             font-size: 1rem;
+            
+            /* NOUVEAU : On centre le texte à l'intérieur du champ */
+            text-align: center; 
 
             &:focus {
                 border-color: var(--primary-color);
