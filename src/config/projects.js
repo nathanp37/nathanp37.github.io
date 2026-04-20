@@ -34,9 +34,9 @@ export const getProjects = async () => {
                 id: projectId,
                 title: frontmatter.title || 'Projet sans titre',
                 date: frontmatter.date || '',
-                // Le chemin de la couverture est maintenant direct et correct.
                 cover: frontmatter.cover || '',
                 tags: frontmatter.tags || [],
+                password: frontmatter.password || null, // NOUVEAU : Récupère le mot de passe
                 content: htmlContent,
             };
         } catch (error) {

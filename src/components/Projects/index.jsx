@@ -12,6 +12,11 @@ const Projects = () => {
     // État pour gérer l'image actuellement zoomée
     const [zoomedImage, setZoomedImage] = useState(null);
 
+    // --- NOUVEAUX ÉTATS POUR LE MOT DE PASSE ---
+    const [isProjectUnlocked, setIsProjectUnlocked] = useState(false);
+    const [passwordInput, setPasswordInput] = useState("");
+    const [passwordError, setPasswordError] = useState("");
+
     useEffect(() => {
         const loadProjects = async () => {
             try {
@@ -43,6 +48,12 @@ const Projects = () => {
         setSelectedProject(project);
         setIsModalOpen(true);
         setIsModalClosing(false);
+        
+        // --- NOUVEAU : Réinitialiser les états du mot de passe ---
+        setPasswordInput("");
+        setPasswordError("");
+        // Si le projet n'a pas de mot de passe, il est déverrouillé par défaut
+        setIsProjectUnlocked(!project.password);
     };
 
     const closeModal = () => {
@@ -51,19 +62,28 @@ const Projects = () => {
             setIsModalOpen(false);
             setSelectedProject(null);
             setIsModalClosing(false);
-            setZoomedImage(null); // Ferme le zoom si on ferme la modale
+            setZoomedImage(null);
         }, 300);
     };
 
-    // Fonction pour gérer le clic sur les images du contenu
     const handleContentClick = (e) => {
-        // Si l'élément cliqué est une image
         if (e.target.tagName === 'IMG') {
-            // On vérifie que ce n'est pas une petite icône
             if (!e.target.src.includes('#icon')) {
                 e.preventDefault();
                 setZoomedImage(e.target.src);
             }
+        }
+    };
+
+    // --- NOUVEAU : Fonction pour vérifier le mot de passe ---
+    const handlePasswordSubmit = (e) => {
+        e.preventDefault();
+        if (passwordInput === selectedProject.password) {
+            setIsProjectUnlocked(true);
+            setPasswordError("");
+        } else {
+            setPasswordError("Mot de passe incorrect 🔒");
+            setPasswordInput(""); // On vide le champ
         }
     };
 
@@ -91,6 +111,10 @@ const Projects = () => {
                     >
                         <div className={styles.projectImage}>
                             <img src={project.cover} alt={project.title} />
+                            {/* NOUVEAU (Optionnel) : Afficher une icône de cadenas sur la carte si protégé */}
+                            {project.password && (
+                                <div className={styles.lockedIcon}>🔒 Protégé</div>
+                            )}
                         </div>
                         <div className={styles.projectInfo}>
                             <h3 className={styles.projectTitle}>{project.title}</h3>
@@ -113,7 +137,7 @@ const Projects = () => {
                         </button>
                         <div className={styles.modalContent}>
                             <div className={styles.modalHeader}>
-                                <h2>{selectedProject.title}</h2>
+                                <h2>{selectedProject.title} {selectedProject.password && !isProjectUnlocked ? "🔒" : ""}</h2>
                                 <p className={styles.modalDate}>{selectedProject.date}</p>
                                 <div className={styles.modalTags}>
                                     {selectedProject.tags.map((tag, index) => (
@@ -121,19 +145,39 @@ const Projects = () => {
                                     ))}
                                 </div>
                             </div>
+                            
                             <div className={styles.modalBody}>
-                                <div
-                                    className={styles.markdownContent}
-                                    dangerouslySetInnerHTML={{ __html: selectedProject.content }}
-                                    onClick={handleContentClick}
-                                />
+                                {/* NOUVEAU : Condition pour afficher le formulaire ou le contenu */}
+                                {!isProjectUnlocked ? (
+                                    <div className={styles.passwordContainer}>
+                                        <h3>Ce projet est privé</h3>
+                                        <p>Veuillez entrer le mot de passe pour y accéder.</p>
+                                        <form onSubmit={handlePasswordSubmit}>
+                                            <input 
+                                                type="password" 
+                                                value={passwordInput} 
+                                                onChange={(e) => setPasswordInput(e.target.value)} 
+                                                placeholder="Mot de passe..."
+                                                autoFocus
+                                            />
+                                            <button type="submit">Déverrouiller</button>
+                                        </form>
+                                        {passwordError && <p className={styles.errorText}>{passwordError}</p>}
+                                    </div>
+                                ) : (
+                                    <div
+                                        className={styles.markdownContent}
+                                        dangerouslySetInnerHTML={{ __html: selectedProject.content }}
+                                        onClick={handleContentClick}
+                                    />
+                                )}
                             </div>
                         </div>
                     </div>
                 </div>
             )}
 
-            {/* Lightbox avec bouton de téléchargement */}
+            {/* Lightbox avec bouton de téléchargement (inchangé) */}
             {zoomedImage && (
                 <div className={styles.lightbox} onClick={() => setZoomedImage(null)}>
                     <div className={styles.lightboxContent}>
@@ -147,7 +191,6 @@ const Projects = () => {
                             ×
                         </button>
 
-                        {/* NOUVEAU : Bouton de téléchargement */}
                         <a 
                             href={zoomedImage} 
                             download
