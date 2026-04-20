@@ -29,7 +29,7 @@ Avant de télécharger le portfolio, vous avez besoin de trois outils gratuits s
 
 Maintenant que vos outils sont prêts, récupérons la structure du site.
 
-1. Téléchargez le dossier compressé du projet : [📥 Télécharger le Template Vierge (ZIP)](/portfolio-template.zip)
+1. Téléchargez le dossier compressé du projet : [📥 Télécharger le Template Vierge (ZIP)](https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto)
 2. Décompressez (extrayez) ce fichier ZIP dans un endroit facile à retrouver sur votre ordinateur, comme votre dossier "Documents".
 3. Ouvrez le logiciel **Visual Studio Code** (VS Code).
 4. Cliquez sur **Fichier** en haut à gauche, puis sur **Ouvrir le dossier...** (ou *Open Folder*).
