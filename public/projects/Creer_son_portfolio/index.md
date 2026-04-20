@@ -1,9 +1,9 @@
 ---
 title: "Créer son portfolio : Le Guide pour Débutants (Version Template)"
-date: "2026-05-20"
+date: "2020-05-20"
 description: "Même sans expérience en code, téléchargez ce template vierge et mettez votre portfolio en ligne pas à pas."
 tags: ["Débutant", "React", "Tutoriel"]
-cover: "cover.png"
+cover: "/projects/Creer_son_portfolio/cover.png"
 password: "2002"
 ---
 
