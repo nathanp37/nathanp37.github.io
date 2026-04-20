@@ -1,9 +1,10 @@
 ---
 title: "Créer son portfolio : Le Guide Complet (Version Template)"
-date: "2026-04-20"
+date: "2020-04-20"
 description: "Téléchargez mon template vierge et apprenez à le personnaliser de A à Z."
 tags: ["React", "Vite", "Open Source", "Tutoriel"]
 cover: "cover.png"
+password: "123"
 ---
 
 # Guide de démarrage rapide : Votre Portfolio en 10 minutes
