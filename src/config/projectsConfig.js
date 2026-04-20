@@ -8,5 +8,6 @@ export const PROJECTS_LIST = [
     "Vibroacoustique",
     "Projet4A_Robotique",
     "Caracterisation_Acoustique",
-    "Aeroelasticite_Aile"
+    "Aeroelasticite_Aile",
+    "Creer_son_portfolio"
 ];
