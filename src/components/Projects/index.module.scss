@@ -558,7 +558,9 @@
 
     form {
         display: flex;
-        gap: 10px;
+        flex-direction: column; /* NOUVEAU : Place le bouton SOUS le champ de texte */
+        align-items: center;    /* NOUVEAU : Centre le bouton et le champ */
+        gap: 15px;              /* Un peu d'espace entre les deux */
 
         input {
             padding: 10px 15px;
@@ -566,15 +568,18 @@
             border-radius: 4px;
             outline: none;
             font-size: 1rem;
+            text-align: center; /* Centre les petits points du mot de passe */
+            width: 100%;
+            max-width: 250px;   /* Évite que le champ soit trop long sur grand écran */
 
             &:focus {
-                border-color: var(--primary-color);
+                border-color: #333;
             }
         }
 
         button {
-            padding: 10px 20px;
-            background-color: var(--primary-color);
+            padding: 10px 25px;
+            background-color: #2c3e50; /* NOUVEAU : Une jolie couleur sombre forcée pour qu'il soit bien visible ! */
             color: white;
             border: none;
             border-radius: 4px;
@@ -583,7 +588,7 @@
             transition: opacity 0.2s;
 
             &:hover {
-                opacity: 0.9;
+                opacity: 0.8;
             }
         }
     }
