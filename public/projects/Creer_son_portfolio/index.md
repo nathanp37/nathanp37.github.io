@@ -70,8 +70,7 @@ Ouvrez le dossier `src`, puis `styles`, et cliquez sur `variables.module.scss`. 
 Allez dans le dossier `public`, puis `projects`. Vous y trouverez un dossier nommé `PROJET_EXEMPLE`.
 Pour créer un nouveau projet, faites un clic droit sur ce dossier et copiez-collez-le pour le dupliquer. Renommez-le avec le nom de votre nouveau projet (sans espaces). Ouvrez le fichier `index.md` à l'intérieur pour modifier le texte de présentation et changez l'image `cover.png` par la vôtre.
 
----
-*Astuce scientifique : Si vous avez besoin d'écrire des formules mathématiques dans vos projets, vous pouvez utiliser la syntaxe KaTeX (exemple : $E = mc^2$).*
+Astuce scientifique : Si vous avez besoin d'écrire des formules mathématiques dans vos projets, vous pouvez utiliser la syntaxe KaTeX (exemple : $E = mc^2$).*
 ---
 
 ## Étape 4 : Publier le site sur internet (GitHub)
@@ -97,5 +96,5 @@ Patientez environ 5 minutes. Votre portfolio est maintenant en ligne et accessib
 ---
 
 ### Remarque
-Plus globalement, une IA comme Chatgpt, Gemini ou Claude pourra vous aider si vous rencontrez des problème lors de la création de votre site. Il vous suffit de lui donner mes consigne et de lui indiquer votre souci.
+Plus globalement, une IA comme Chatgpt, Gemini ou Claude pourra vous aider si vous rencontrez des difficultés lors de la création de votre site. Il vous suffit de lui donner mes consignes et de lui indiquer votre souci.
 
