@@ -71,6 +71,7 @@ Allez dans le dossier `public`, puis `projects`. Vous y trouverez un dossier nom
 Pour créer un nouveau projet, faites un clic droit sur ce dossier et copiez-collez-le pour le dupliquer. Renommez-le avec le nom de votre nouveau projet (sans espaces). Ouvrez le fichier `index.md` à l'intérieur pour modifier le texte de présentation et changez l'image `cover.png` par la vôtre.
 
 Astuce scientifique : Si vous avez besoin d'écrire des formules mathématiques dans vos projets, vous pouvez utiliser la syntaxe KaTeX (exemple : $E = mc^2$).*
+
 ---
 
 ## Étape 4 : Publier le site sur internet (GitHub)
