@@ -29,7 +29,7 @@ Avant de télécharger le portfolio, vous avez besoin de trois outils gratuits s
 
 Maintenant que vos outils sont prêts, récupérons la structure du site.
 
-1. Téléchargez le dossier compressé du projet : [📥 Télécharger le Template Vierge (ZIP)](https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto)
+1. Téléchargez le dossier compressé du projet sur mon drive Google (nom du fichier : "portfolio-template.zip"): [📥 Télécharger le Template Vierge (ZIP)](https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto)
 2. Décompressez (extrayez) ce fichier ZIP dans un endroit facile à retrouver sur votre ordinateur, comme votre dossier "Documents".
 3. Ouvrez le logiciel **Visual Studio Code** (VS Code).
 4. Cliquez sur **Fichier** en haut à gauche, puis sur **Ouvrir le dossier...** (ou *Open Folder*).
@@ -71,6 +71,8 @@ Allez dans le dossier `public`, puis `projects`. Vous y trouverez un dossier nom
 Pour créer un nouveau projet, faites un clic droit sur ce dossier et copiez-collez-le pour le dupliquer. Renommez-le avec le nom de votre nouveau projet (sans espaces). Ouvrez le fichier `index.md` à l'intérieur pour modifier le texte de présentation et changez l'image `cover.png` par la vôtre.
 
 ---
+*Astuce scientifique : Si vous avez besoin d'écrire des formules mathématiques dans vos projets, vous pouvez utiliser la syntaxe KaTeX (exemple : $E = mc^2$).*
+---
 
 ## Étape 4 : Publier le site sur internet (GitHub)
 
@@ -93,4 +95,7 @@ Allez sur la page de votre projet sur GitHub. Cliquez sur l'onglet **Settings** 
 Patientez environ 5 minutes. Votre portfolio est maintenant en ligne et accessible par le monde entier ! 🚀
 
 ---
-*Astuce scientifique : Si vous avez besoin d'écrire des formules mathématiques dans vos projets, vous pouvez utiliser la syntaxe KaTeX (exemple : $E = mc^2$).*
+
+### Remarque
+Plus globalement, une IA comme Chatgpt, Gemini ou Claude pourra vous aider si vous rencontrez des problème lors de la création de votre site. Il vous suffit de lui donner mes consigne et de lui indiquer votre souci.
+
