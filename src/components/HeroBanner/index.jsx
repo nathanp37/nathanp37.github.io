@@ -7,7 +7,7 @@ const HeroBanner = () => {
                 <p className={styles.title}> Nathan <br></br><span>PRUNOTTO</span></p>
                 <p className={styles.descriptionOfDescription}>
                     Jeune diplômé de l’ENSIM, spécialisé en acoustique et vibrations, passionné par l’innovation et la recherche.
-                    Candidat à une thèse ou à un poste d’ingénieur en traitement du signal, imagerie, vibrations, mécanique ou intelligence artificielle.
+                    Ingénieur Calcul & Essais chez Vibrateam, actuellement en mission chez Safran Aircraft Engines (site de Villaroche), je réalise des essais vibratoires sur des pièces de moteurs aéronautiques.
                 </p>
             </div>
             <div className={styles.containerSkills}>
